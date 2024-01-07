@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-import { Ref, onMounted, reactive, ref, watch, defineExpose } from 'vue';
+import { Ref, onMounted, reactive, ref, watch, defineExpose, nextTick } from 'vue';
 import { Player } from '../element/player.ts';
 
 export type attackType = 'top' | 'right' | 'bottom' | 'left';
@@ -151,168 +151,158 @@ let timer: number;
 /**
  * 创建动画
  */
-const createAnimation = function (fun: () => void, time = 500) {
+const createAnimation = function (fun: () => void | false, time = 500) {
+	// const callback = () => {
+	// 	clearTimeout(timer!);
+	// 	if (fun() !== false) {
+	// 		timer = setTimeout(callback, time);
+	// 	}
+	// };
+	// timer = setTimeout(callback, time);
 	const callback = () => {
-		fun();
-		timer = setTimeout(callback, time);
+		if (fun() === false) {
+			clearInterval(timer);
+		}
 	};
-	timer = setTimeout(callback, time);
+	timer = setInterval(callback, time);
+	console.log('为', fun, '绑定的timer是', timer);
 };
 
 /**
  * 修改角色动画
  */
 const changeAnimation = function (this: Player, actionType: 'attack' | 'walk', statusType: attackType | walkType) {
-	clearTimeout(timer!);
-	/** 初始动作位置 */
-	let basePosition: number;
-	/** 进行了第几个动作 */
-	let count = 0;
-	/** 一次加多少px */
-	let y = parseInt(width.value.slice(0, -2));
-	// 更新图片
-	animationData.actionType = actionType;
-	animationData.statusType = statusType;
-
-	/** 
-	 * 切换为行走状态 
-	 * 
-	 * 实际此处是有停顿计算伤害等数值的，后面再考虑
-	 **/
-	const changeToWalk = () => {
-		if (statusType.startsWith('top')) {
-			this.changeAnimation('walk', 'top');
-		}
-		else if (statusType.startsWith('right')) {
-			this.changeAnimation('walk', 'right');
-		}
-		else if (statusType.startsWith('bottom')) {
-			this.changeAnimation('walk', 'bottom');
-		}
-		else if (statusType.startsWith('left')) {
-			this.changeAnimation('walk', 'left');
-		}
-		// 由其他情况的后面赋值“朝向状态”再考虑
-		else {
-			this.changeAnimation('walk', 'top');
-		}
-	};
-
-	if (actionType == 'attack') {
-		/** 
-		 * 总共有几个动作
-		 * 向xx方向攻击各有四个动作
-		 */
-		let maxCount = 4;
-		switch (statusType) {
-			case 'top':
-				basePosition = 0 * y;
-				break;
-			case 'right':
-				basePosition = 12 * y;
-				break;
-			case 'bottom':
-				basePosition = 4 * y;
-				break;
-			case 'left':
-				basePosition = 8 * y;
-				break;
-		}
-		playerBackgroundPosition.value[1] = -basePosition!;
+	return new Promise<void>(resolve => {
 		clearTimeout(timer!);
-		createAnimation(() => {
-			count++;
-			// 做完一套动作后应该回归walk的状态
-			if (count >= maxCount) {
-				clearTimeout(timer!);
-				changeToWalk();
-				return;
-			}
-			playerBackgroundPosition.value[1] = -(basePosition + count * y);
-		}, 100);
-	}
-	else if(actionType == 'walk') {
-		/** 
-		 * 总共有几个动作
-		 */
-		let maxCount = 0;
-		switch (statusType) {
-			case 'top':
-				basePosition = 0 * y;
-				maxCount = 2;
-				break;
-			case 'right':
-				basePosition = 6 * y;
-				maxCount = 2;
-				break;
-			case 'bottom':
-				basePosition = 2 * y;
-				maxCount = 2;
-				break;
-			case 'left':
-				basePosition = 4 * y;
-				maxCount = 2;
-				break;
-			case 'topStop':
-				basePosition = 8 * y;
-				break;
-			case 'rightStop':
-				basePosition = 11 * y;
-				break;
-			case 'bottomStop':
-				basePosition = 9 * y;
-				break;
-			case 'leftStop':
-				basePosition = 10 * y;
-				break;
-			case 'topBlock':
-				basePosition = 14 * y;
-				break;
-			case 'rightBlock':
-				basePosition = 17 * y;
-				break;
-			case 'bottomBlock':
-				basePosition = 15 * y;
-				break;
-			case 'leftBlock':
-				basePosition = 16 * y;
-				break;
-			case 'dying':
-				basePosition = 12 * y;
-				maxCount = 2;
-				break;
-			case 'damage':
-				basePosition = 18 * y;
-				break;
-			case 'gain':
-				basePosition = 19 * y;
-				break;
-		}
-		playerBackgroundPosition.value[1] = -basePosition!;
-		clearTimeout(timer!);
-		if (maxCount > 0) {
-			createAnimation(() => {
-				count++;
-				// 做完一套动作后应该回归walk的状态
-				if (count >= maxCount) {
-					// 只有濒死情况或行走的情况循环动作
-					if (['dying', 'top', 'right', 'bottom', 'left'].includes(statusType)) {
-						count = 0;
-					} else {
+		// 更新图片(异步)
+		if (animationData.actionType != actionType) animationData.actionType = actionType;
+		if (animationData.statusType != statusType) animationData.statusType = statusType;
+		nextTick(() => {
+			/** 初始动作位置 */
+			let basePosition: number;
+			/** 进行了第几个动作 */
+			let count = 0;
+			/** 一次加多少px */
+			let y = parseInt(width.value.slice(0, -2));
+
+			if (actionType == 'attack') {
+				/** 
+				 * 总共有几个动作
+				 * 向xx方向攻击各有四个动作
+				 */
+				let maxCount = 4;
+				switch (statusType) {
+					case 'top':
+						basePosition = 0 * y;
+						break;
+					case 'right':
+						basePosition = 12 * y;
+						break;
+					case 'bottom':
+						basePosition = 4 * y;
+						break;
+					case 'left':
+						basePosition = 8 * y;
+						break;
+				}
+				playerBackgroundPosition.value[1] = -basePosition!;
+				createAnimation(() => {
+					count++;
+					// 做完一套动作后resolve
+					if (count >= maxCount) {
 						clearTimeout(timer!);
-						changeToWalk();
-						return;
+						resolve();
+						return false;
+					}
+					playerBackgroundPosition.value[1] = -(basePosition + count * y);
+				}, 100);
+			}
+			else if (actionType == 'walk') {
+				/** 
+				 * 总共有几个动作
+				 */
+				let maxCount = 0;
+				switch (statusType) {
+					case 'top':
+						basePosition = 0 * y;
+						maxCount = 2;
+						break;
+					case 'right':
+						basePosition = 6 * y;
+						maxCount = 2;
+						break;
+					case 'bottom':
+						basePosition = 2 * y;
+						maxCount = 2;
+						break;
+					case 'left':
+						basePosition = 4 * y;
+						maxCount = 2;
+						break;
+					case 'topStop':
+						basePosition = 8 * y;
+						break;
+					case 'rightStop':
+						basePosition = 11 * y;
+						break;
+					case 'bottomStop':
+						basePosition = 9 * y;
+						break;
+					case 'leftStop':
+						basePosition = 10 * y;
+						break;
+					case 'topBlock':
+						basePosition = 14 * y;
+						break;
+					case 'rightBlock':
+						basePosition = 17 * y;
+						break;
+					case 'bottomBlock':
+						basePosition = 15 * y;
+						break;
+					case 'leftBlock':
+						basePosition = 16 * y;
+						break;
+					case 'dying':
+						basePosition = 12 * y;
+						maxCount = 2;
+						break;
+					case 'damage':
+						basePosition = 18 * y;
+						break;
+					case 'gain':
+						basePosition = 19 * y;
+						break;
+				}
+				playerBackgroundPosition.value[1] = -basePosition!;
+				if (maxCount > 0) {
+					createAnimation(() => {
+						count++;
+						// 做完一套动作后resolve
+						if (count >= maxCount) {
+							// 只有濒死情况或行走的情况循环动作
+							if (['dying', 'top', 'right', 'bottom', 'left'].includes(statusType)) {
+								count = 0;
+								resolve();
+							} else {
+								clearTimeout(timer!);
+								resolve();
+								return false;
+							}
+						}
+						playerBackgroundPosition.value[1] = -(basePosition + count * y);
+					});
+				} else {
+					// 非停止状态下，如果没有其他的动作可以切换，则切换到行走状态
+					if (!statusType.endsWith('Stop')) {
+						setTimeout(resolve, 500);
+					} else {
+						resolve();
 					}
 				}
-				playerBackgroundPosition.value[1] = -(basePosition + count * y);
-			});
-		} else {
-			// 非停止状态下，如果没有其他的动作可以切换，则切换到行走状态
-			if (!statusType.endsWith('Stop')) {
-				setTimeout(changeToWalk, 500);
 			}
-		}
-	}
+		});
+	});
 };
 
 /**
@@ -350,9 +340,10 @@ watch(animationData, () => {
 	// 更新元素宽高
 	width.value = animationData.actionType == 'walk' ? '48px' : '64px';
 	// 清除动画计时器
-	clearTimeout(timer!);
+	// clearTimeout(timer!);
 	// 重新设置动画
-	newPlayer.changeAnimation(animationData.actionType, animationData.statusType);
+	// newPlayer.changeAnimation(animationData.actionType, animationData.statusType);
+	console.log('更新animationData');
 }, { deep: true });
 
 const player: Ref<HTMLDivElement | null> = ref(null);

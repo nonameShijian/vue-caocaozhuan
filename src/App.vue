@@ -10,10 +10,16 @@ const index: Ref<playerProp["index"]> = ref(1);
 const statusType: Ref<playerProp["statusType"]> = ref('dying');
 
 const caocao: Ref<InstanceType<typeof GamePlayer> | null> = ref(null);
+const yuanshao: Ref<InstanceType<typeof GamePlayer> | null> = ref(null);
 onMounted(() => {
 	setTimeout(() => {
 		//caocao.value!.animationData.statusType = 'right';
-		console.log(caocao.value!.player);
+    console.log(caocao.value!.player);
+    console.log(yuanshao.value!.player);
+    window.caocao = caocao.value!.player;
+    window.yuanshao = yuanshao.value!.player;
+
+    // 控制台test: caocao.attackTo(yuanshao)
 	}, 1000);
 });
 
