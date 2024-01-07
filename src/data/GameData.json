@@ -1,0 +1,19 @@
+[
+  {
+    "playerName": "100_newGame",
+    "R": 0,
+    "S": 0,
+    "isR": "true",
+    "nowRound": 0,
+    "nowSection": null,
+    "nowScene": 0,
+    "valueSet": "",
+    "backGrandMusic": "",
+    "plotObject": "",
+    "money": 2000,
+    "Lv": null,
+    "No": 99,
+    "careerism": 50,
+    "viewPosition": "0,0"
+  }
+]

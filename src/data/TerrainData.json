@@ -1,0 +1,162 @@
+[
+  {
+    "terrainName": "平原",
+    "canMove": "true",
+    "fire": "true",
+    "water": "false",
+    "land": "false",
+    "wind": "true",
+    "recover": 0,
+    "id": 1000
+  },
+  {
+    "terrainName": "山地",
+    "canMove": "true",
+    "fire": "false",
+    "water": "false",
+    "land": "true",
+    "wind": "true",
+    "recover": 0,
+    "id": 1001
+  },
+  {
+    "terrainName": "石头",
+    "canMove": "false",
+    "fire": "false",
+    "water": "false",
+    "land": "false",
+    "wind": "false",
+    "recover": 0,
+    "id": 1002
+  },
+  {
+    "terrainName": "鹿岩",
+    "canMove": "true",
+    "fire": "true",
+    "water": "false",
+    "land": "false",
+    "wind": "false",
+    "recover": 25,
+    "id": 1003
+  },
+  {
+    "terrainName": "兵营",
+    "canMove": "true",
+    "fire": "true",
+    "water": "false",
+    "land": "false",
+    "wind": "false",
+    "recover": 20,
+    "id": 1004
+  },
+  {
+    "terrainName": "城内",
+    "canMove": "true",
+    "fire": "true",
+    "water": "false",
+    "land": "false",
+    "wind": "false",
+    "recover": 0,
+    "id": 1007
+  },
+  {
+    "terrainName": "草原",
+    "canMove": "true",
+    "fire": "true",
+    "water": "false",
+    "land": "false",
+    "wind": "true",
+    "recover": 0,
+    "id": 1008
+  },
+  {
+    "terrainName": "树林",
+    "canMove": "true",
+    "fire": "true",
+    "water": "false",
+    "land": "false",
+    "wind": "false",
+    "recover": 0,
+    "id": 1009
+  },
+  {
+    "terrainName": "荒地",
+    "canMove": "true",
+    "fire": "false",
+    "water": "false",
+    "land": "true",
+    "wind": "true",
+    "recover": 0,
+    "id": 1010
+  },
+  {
+    "terrainName": "雪原",
+    "canMove": "true",
+    "fire": "false",
+    "water": "true",
+    "land": "false",
+    "wind": "true",
+    "recover": 0,
+    "id": 1011
+  },
+  {
+    "terrainName": "桥梁",
+    "canMove": "true",
+    "fire": "true",
+    "water": "true",
+    "land": "false",
+    "wind": "true",
+    "recover": 0,
+    "id": 1012
+  },
+  {
+    "terrainName": "浅滩",
+    "canMove": "true",
+    "fire": "false",
+    "water": "true",
+    "land": "false",
+    "wind": "true",
+    "recover": 0,
+    "id": 1013
+  },
+  {
+    "terrainName": "沼泽",
+    "canMove": "true",
+    "fire": "false",
+    "water": "true",
+    "land": "false",
+    "wind": "true",
+    "recover": 0,
+    "id": 1014
+  },
+  {
+    "terrainName": "大河",
+    "canMove": "true",
+    "fire": "false",
+    "water": "true",
+    "land": "false",
+    "wind": "true",
+    "recover": 0,
+    "id": 1015
+  },
+  {
+    "terrainName": "民居",
+    "canMove": "true",
+    "fire": "true",
+    "water": "false",
+    "land": "false",
+    "wind": "false",
+    "recover": 0,
+    "id": 1016
+  },
+  {
+    "terrainName": "仓库",
+    "canMove": "true",
+    "fire": "true",
+    "water": "false",
+    "land": "false",
+    "wind": "false",
+    "recover": 0,
+    "id": 1017
+  }
+]

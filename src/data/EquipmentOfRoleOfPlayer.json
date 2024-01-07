@@ -1,0 +1,16 @@
+[
+  {
+    "ID": 1,
+    "equipmentName": "倚天剑",
+    "experience": 0,
+    "grade": 1,
+    "IDOfRoleOfPlayer": "99_3"
+  },
+  {
+    "ID": 2,
+    "equipmentName": "皮铠",
+    "experience": 0,
+    "grade": 1,
+    "IDOfRoleOfPlayer": "99_3"
+  }
+]

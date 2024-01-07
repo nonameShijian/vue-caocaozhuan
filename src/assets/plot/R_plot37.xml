@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Plot>
+	<Scene>
+		<Section>
+			<loadBackgrand>MMap-94</loadBackgrand>
+			<rolePlay>!曹操,54,80,3,0</rolePlay>
+			<rolePlay>!夏侯惇,44,64,1,1</rolePlay>
+			<rolePlay>!许褚,44,58,1,15</rolePlay>
+			<rolePlay>!徐晃,44,52,1,13</rolePlay>
+			<rolePlay>!荀彧,64,64,0,20</rolePlay>
+			<rolePlay>!司马懿,64,58,0,19</rolePlay>
+			<rolePlay>!程昱,64,52,0,21</rolePlay>
+			<dialogue>0,曹操:想不到孔明的目标是斜谷粮仓，真是太大意了。</dialogue>
+			<storyAction>0,2,19</storyAction>
+			<dealyTime>0.3</dealyTime>
+			<storyAction>8,4,19</storyAction>
+			<dialogue>19,司马懿:此人用兵神出鬼没……将是最令我军畏惧的人物。</dialogue>
+			<storyAction>0,4,19</storyAction>
+			<dealyTime>0.3</dealyTime>
+			<storyAction>0,2,20</storyAction>
+			<dealyTime>0.3</dealyTime>
+			<storyAction>8,4,20</storyAction>
+			<dialogue>20,荀彧:如果粮仓被夺，我军将进退不得。</dialogue>
+			<storyAction>0,4,20</storyAction>
+			<dealyTime>0.3</dealyTime>
+			<storyAction>19,4,0</storyAction>
+			<dialogue>0,曹操:嗯，绝不能让蜀军夺走粮仓，马上赶往斜谷！</dialogue>
+			<storyAction>0,4,0</storyAction>
+			<storyAction>0,0,20</storyAction>
+			<storyAction>0,0,19</storyAction>
+		</Section>
+		<section>
+			<SceneNameSet>军事会议  斜谷死斗前</SceneNameSet>
+			<RShowMenu>true</RShowMenu>
+		</section>	
+	</Scene>
+</Plot>
+

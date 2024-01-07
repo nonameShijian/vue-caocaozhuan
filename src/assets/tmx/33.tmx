@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="32" tilewidth="48" tileheight="48">
+ <tileset firstgid="1" name="34-1" tilewidth="48" tileheight="48">
+  <image source="map/34-1.jpg" trans="ff00ff" width="960" height="1536"/>
+ </tileset>
+ <layer name="小河" width="20" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztz0lqQkEUheHyzTWC7kDBfgc2sVmDuq0swr4Bu6gxnYJ9lzWoWYOJTvLPrImIvMqsDnxwKbjnUkLo6Ojo6OjcnyeL2r4cfXkUUEQJZVRQRQ116WaDuYkW2ujgGV300McLBnjFG97xgU8MMZL6xswTTDHDHAssscIaG2zxpejvO3r2OOBbUeeRnh/84oSzol6rIYQND7Abl3cHs9O4vncrLnbd0r6H2Qsf/AggiJCJG2F2I4gihkfEkUASKRPdctL0ZJBV1Pef+QOsCyug
+  </data>
+ </layer>
+ <layer name="平原" width="20" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzl1cdSU2EAhuEkEPQCDE0vQCzoHgt6AchC3VsW6kpQ0I2VopSVBem6tZcLsKHegAICtqVSRIEt4nNmZCYLHVP+hTN+kyeL5D/v5GQyk3gsFktQQCFJimK5L0UxJZRSRnkevQrWsZ4NbKQyj160bWynmh3szLO3vN3sYW+g3iEOcyRQL9opTnOGs5zjPE0000Jr2vk22umg8w/NS1zmClfp4hrd9NBLH/0MMMh1bmTweW9yi9vc4S73uM8DHvIog076HvOEpzzjOUO84CWvsuxFe80bhhlh9NfrY4zn0EvfJFNMM5Nna3lL0VPcIx4oaKu0UgF7a7UqAvWqdLawNUCvRmMXtQFa+zT2c4CDWfaOOl9HPcc4TgONnOBkFr0mZ5tpoZULXKSNdjpyuNdu1/TQSx/9DDAY8Dfyr23YvY0wylvGGGeCd7znAx/59Jfv4bP3vzDJFNPM8JVZvvGdOeZZyOB7XXTmB0vRWX/8cRIUUEiSIlawMpH9/adcU0wJpZRRzmrW5ND73Sp1NrE5UO9/3k+oMlla
+  </data>
+ </layer>
+ <layer name="草原" width="20" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzt0bkzA3EYxvEVGoRag8R/gLhrEvcZM0LcV273nQS1ylk6Z+gpqWkTOhqFhAYNM4zCtzFjMon9ZWWMIu/Mp9jd5332t4kkxSc+/28OcRRF/hgnMplTnAn2neNCIOeDXyB3jRuB3B0CCOIeD2Eyj3jCs0DfG94FcokJkpSU8HNGzfM0pMvkviZDJqfhuVawS27y6dGhIEZ9enoMCrqM7LSG7Jm4bkcHzFF2WshbYYMdDjjhUvidbvY88GIRS1gW7FqJkFvl/hrWsYFNbMl0bvN8B7vYwz4OYvTf/eX4OLMfl7hScP7bMDsB7gUV/hYv7L1G2P1Q0JmskqQUpEKtUnam75NJRxayoYEWOb/ozWU3D/nQoQCFKEIxSlCKMsF3lJOrgB4GVKIK1ahBLepQjwY0ognNaIEx5D1tXJvQjg6Y0YkudKMHvehDPwYwiCEMwwIrbLDDASdcGMEoxjCOCUxiCtOYwSzmMI8FuOGBF4v4BMLARuQ=
+  </data>
+ </layer>
+ <layer name="民居" width="20" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzLsOgCAQRFFqbK3xkSjWiiSo//9dXjo6tzZzk1PtZJ37zqMz7HrDphYwYMSEubktWBGxGf/tOJBwIje3ggs3HuM/pZRSSqk/9wLjEgNS
+  </data>
+ </layer>
+ <layer name="兵营" width="20" height="32">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU0ALcGGgHjIJRMApGwSgYBTgAAKSrANk=
+  </data>
+ </layer>
+ <layer name="沼泽" width="20" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzkdKQ1EUxvEkoEYd2ECxgxXsOrAE7AVsgyRCdKJOkriFlC2kuAQTdQfGtgK7G7C7AU0sYMG/IHi9ZOLLBQe+Az/eOe+c9/EMhv9VvYrzrLDBrijPCRfcivI88MIHv4K8AIIIIYzlFPNWEEEUq1jDegp5G4hhE1vYxg52NebtYR8HOMQRjnGCUw15ZzjHBS5xhWvc4FZD3h3uEUcCD3jEE56Fuxe84g3vUobJ+N2n0acjA2ZkIgvZxp/f5DDnIg/5KBD2hfRFX3MxzxKUogzlqEClcF9FX40a1KIO9cK+gb4RTWhGC1rRhnZ0SP/WydyFbvTAIu37mPsxgEEMYRgjGMWYcD9OP4FJTGFayrIy22DHjLBz0M9iTrr/rHneLWAxyc7JOxfcWEqy/215yPDCB7+CvAAZQYQQVpCnl156/V19ANklO0s=
+  </data>
+ </layer>
+ <layer name="护城河" width="20" height="32">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAO2HGIkwukqWyePpXNc6ayeeFUNi8biHOAOBeI84A4H4gLgLgQiIuQ1JUCcRkQlwNxBZXdMApGwSgYBaNgFIyC4QEAEDQGOg==
+  </data>
+ </layer>
+ <layer name="城墙" width="20" height="32">
+  <data encoding="base64" compression="zlib">
+   eJxjYMANOPDIkQNkqGyeAZXNc6GyeRFAHAnEUUAcDcQxQBwLxHFIahKBOAmIk4E4hcr2j4JRMApGwSgYBaNgFGADAPKhBKA=
+  </data>
+ </layer>
+ <layer name="城内" width="20" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzDkKgDAURdG0grO1lW7ASjfgPO5A978KbxNIE5XY/gsHwoc8pZ7zjLePACEixEiQInvZ0eWWe4Hy44ZZZbnXaBz2WnToMWDEhBkLVmzYcTjs605cP/5LkiRJkiS5dgPV5QXH
+  </data>
+ </layer>
+ <layer name="桥梁" width="20" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztzEEVABAURNGhAR0oSAfa0IFgfgKrWTH3nLd9gLygWJX4a1Yn/kREWIYDpuP9lr028feL4IHoeb9kr0z8yd0BlKMFVw==
+  </data>
+ </layer>
+ <objectgroup name="enemyAIBegin" width="20" height="32">
+  <object name="8" x="480" y="1104" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="14" x="480" y="1152" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="9" x="528" y="1104" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="13" x="576" y="1152" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="10" x="432" y="1104" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="12" x="576" y="1104" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="2" x="336" y="1344" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="3" x="384" y="1344" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="4" x="432" y="1344" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="5" x="480" y="1344" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="7" x="480" y="1392" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="0" x="432" y="1392" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="6" x="336" y="1392" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="1" x="384" y="1392" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="11" x="432" y="1152" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="15" x="528" y="1152" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="16" x="48" y="1392" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="17" x="96" y="1440" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="18" x="0" y="1392" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="19" x="48" y="1440" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="20" x="96" y="1488" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="20" x="-648" y="1272" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="21" x="0" y="1440" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="22" x="48" y="1488" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="23" x="0" y="1488" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="friendAIBegin" width="20" height="32"/>
+ <objectgroup name="playerBegin" width="20" height="32">
+  <object name="0" x="672" y="720" width="48" height="48">
+   <properties>
+    <property name="orientation" value="2"/>
+   </properties>
+  </object>
+  <object name="1" x="720" y="768" width="48" height="48">
+   <properties>
+    <property name="orientation" value="2"/>
+   </properties>
+  </object>
+  <object name="2" x="720" y="816" width="48" height="48">
+   <properties>
+    <property name="orientation" value="2"/>
+   </properties>
+  </object>
+  <object name="3" x="672" y="768" width="48" height="48">
+   <properties>
+    <property name="orientation" value="2"/>
+   </properties>
+  </object>
+  <object name="6" x="624" y="768" width="48" height="48">
+   <properties>
+    <property name="orientation" value="3"/>
+   </properties>
+  </object>
+  <object name="7" x="768" y="768" width="48" height="48">
+   <properties>
+    <property name="orientation" value="2"/>
+   </properties>
+  </object>
+  <object name="4" x="672" y="144" width="48" height="48">
+   <properties>
+    <property name="orientation" value="1"/>
+   </properties>
+  </object>
+  <object name="5" x="720" y="144" width="48" height="48">
+   <properties>
+    <property name="orientation" value="1"/>
+   </properties>
+  </object>
+  <object name="8" x="672" y="96" width="48" height="48">
+   <properties>
+    <property name="orientation" value="1"/>
+   </properties>
+  </object>
+  <object name="9" x="720" y="96" width="48" height="48">
+   <properties>
+    <property name="orientation" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Plot>
+	<Scene>
+		<Section>
+			<backGrandMusic>17,true</backGrandMusic>
+			<loadBackgrand>MMap-94</loadBackgrand>
+			<rolePlay>!曹操,54,80,3,0</rolePlay>
+			<rolePlay>!荀彧,64,64,0,20</rolePlay>
+			<rolePlay>!司马懿,64,58,0,19</rolePlay>
+			<rolePlay>!贾诩,64,52,0,23</rolePlay>
+			<rolePlay>!夏侯惇,44,64,1,1</rolePlay>
+			<rolePlay>!关羽,44,58,1,3</rolePlay>
+			<rolePlay>!貂蝉,44,52,1,17</rolePlay>
+			<dialogue>0,曹操:想不到魔王竟然如此法力无边。我们进军的速度已被延误多时。</dialogue>
+			<storyAction>0,2,19</storyAction>
+			<dealyTime>0.3</dealyTime>
+			<storyAction>8,4,19</storyAction>
+			<dialogue>19,司马懿:抵达白帝城的时间，似乎比预计要晚很多。</dialogue>
+			<storyAction>0,4,19</storyAction>
+			<dialogue>0,曹操:不过孔明在路上设下机关层层阻挠，无非是不让我们接近白帝城，看来白帝城内必有蹊跷。</dialogue>
+			<storyAction>19,4,0</storyAction>
+			<dialogue>0,曹操:好，一鼓作气进攻白帝城！</dialogue>
+			<storyAction>0,4,0</storyAction>
+			<storyAction>0,0,19</storyAction>
+		</Section>	
+		<section>
+			<!--r剧本要重开1个section-->
+			<SceneNameSet>白色祭坛</SceneNameSet>
+			<RShowMenu>true</RShowMenu>
+		</section>	
+	</Scene>
+</Plot>
+

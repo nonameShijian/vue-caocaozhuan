@@ -1,0 +1,200 @@
+[
+  {
+    "consumableName": "酱油果",
+    "introduce": "终极神果，全属性加100%(这明明是草好不好...)",
+    "effect": "全属性上升",
+    "resultID": 1000,
+    "resultNumber": 1,
+    "pathId": 1,
+    "value": 0,
+    "needAverageGrade": 1000,
+    "uniqueID": 0
+  },
+  {
+    "consumableName": "恢复用豆",
+    "introduce": "可以恢复HP的神奇豆子。效果不算太高，可以用比较便宜的价格购得。",
+    "effect": "恢复HP",
+    "resultID": 1,
+    "resultNumber": 30,
+    "pathId": 2,
+    "value": 100,
+    "needAverageGrade": 1,
+    "uniqueID": 1
+  },
+  {
+    "consumableName": "恢复用米",
+    "introduce": "可以恢复HP的神奇的米。效果很好。",
+    "effect": "恢复HP",
+    "resultID": 1,
+    "resultNumber": 80,
+    "pathId": 3,
+    "value": 350,
+    "needAverageGrade": 15,
+    "uniqueID": 2
+  },
+  {
+    "consumableName": "恢复用桃",
+    "introduce": "可以完全恢复HP的神奇桃子。这种桃子非常稀少，很难取得。",
+    "effect": "恢复HP",
+    "resultID": 1,
+    "resultNumber": 220,
+    "pathId": 4,
+    "value": 1000,
+    "needAverageGrade": 30,
+    "uniqueID": 3
+  },
+  {
+    "consumableName": "神秘水",
+    "introduce": "可以恢复MP的神奇药水。价格比较贵。",
+    "effect": "恢复MP",
+    "resultID": 2,
+    "resultNumber": 30,
+    "pathId": 5,
+    "value": 500,
+    "needAverageGrade": 15,
+    "uniqueID": 4
+  },
+  {
+    "consumableName": "神秘酒",
+    "introduce": "可以恢复MP的神奇药酒。效果相当好。",
+    "effect": "恢复MP",
+    "resultID": 2,
+    "resultNumber": 80,
+    "pathId": 6,
+    "value": 1000,
+    "needAverageGrade": 30,
+    "uniqueID": 5
+  },
+  {
+    "consumableName": "解毒剂",
+    "introduce": "可以治愈体内毒素的药。用具有解毒功效的草药制成。",
+    "effect": "治疗中毒",
+    "resultID": 31,
+    "resultNumber": 0,
+    "pathId": 7,
+    "value": 300,
+    "needAverageGrade": 5,
+    "uniqueID": 6
+  },
+  {
+    "consumableName": "兴奋剂",
+    "introduce": "可使陷入混乱状态的部队恢复正常的药。味道好像特别苦。",
+    "effect": "治疗混乱",
+    "resultID": 33,
+    "resultNumber": 0,
+    "pathId": 8,
+    "value": 300,
+    "needAverageGrade": 10,
+    "uniqueID": 7
+  },
+  {
+    "consumableName": "膏药",
+    "introduce": "可使陷入麻痹状态的部队恢复行动的药。要贴在脚上使用。",
+    "effect": "治疗麻痹",
+    "resultID": 32,
+    "resultNumber": 0,
+    "pathId": 9,
+    "value": 300,
+    "needAverageGrade": 10,
+    "uniqueID": 8
+  },
+  {
+    "consumableName": "止咳药",
+    "introduce": "可以解除禁咒状态的药。入口的感觉很好。",
+    "effect": "治疗禁咒",
+    "resultID": 34,
+    "resultNumber": 0,
+    "pathId": 10,
+    "value": 300,
+    "needAverageGrade": 10,
+    "uniqueID": 9
+  },
+  {
+    "consumableName": "印绶",
+    "introduce": "兵种晋升时所须的印绶。等级到达一定程度的部队使用后，可以晋升为高阶的兵种，并具有完全恢复HP和MP值的作用。",
+    "effect": "兵种上升",
+    "resultID": 4,
+    "resultNumber": 0,
+    "pathId": 11,
+    "value": 1000,
+    "needAverageGrade": 12,
+    "uniqueID": 10
+  },
+  {
+    "consumableName": "武力果",
+    "introduce": "食用后可以提高武力的神奇果子。攻击力也会得到一些提高。",
+    "effect": "武力上升",
+    "resultID": 61,
+    "resultNumber": 2,
+    "pathId": 12,
+    "value": 0,
+    "needAverageGrade": 1000,
+    "uniqueID": 11
+  },
+  {
+    "consumableName": "智力果",
+    "introduce": "食用后可以提高智力的神奇果子。精神力也会得到一些提高。",
+    "effect": "智力上升",
+    "resultID": 63,
+    "resultNumber": 2,
+    "pathId": 13,
+    "value": 0,
+    "needAverageGrade": 1000,
+    "uniqueID": 12
+  },
+  {
+    "consumableName": "统率力果",
+    "introduce": "食用后可以提高统率的神奇果子。防御力也会得到一些提高。",
+    "effect": "统率力上升",
+    "resultID": 64,
+    "resultNumber": 2,
+    "pathId": 14,
+    "value": 0,
+    "needAverageGrade": 1000,
+    "uniqueID": 13
+  },
+  {
+    "consumableName": "敏捷果",
+    "introduce": "食用后可以迅速移动的神奇果子。爆发力也会得到一些提高。",
+    "effect": "敏捷上升",
+    "resultID": 62,
+    "resultNumber": 2,
+    "pathId": 15,
+    "value": 0,
+    "needAverageGrade": 1000,
+    "uniqueID": 14
+  },
+  {
+    "consumableName": "好运果",
+    "introduce": "食用后可以提高运气的神奇果子。士气也会得到一些提高。",
+    "effect": "运气上升",
+    "resultID": 65,
+    "resultNumber": 2,
+    "pathId": 16,
+    "value": 0,
+    "needAverageGrade": 1000,
+    "uniqueID": 15
+  },
+  {
+    "consumableName": "经验果",
+    "introduce": "食用后可以提高EXP 或等级的神奇果子。可以完全恢复HP和MP。",
+    "effect": "等级上升",
+    "resultID": 66,
+    "resultNumber": 1,
+    "pathId": 17,
+    "value": 0,
+    "needAverageGrade": 1000,
+    "uniqueID": 16
+  },
+  {
+    "consumableName": "恢复酱油",
+    "introduce": "神奇的酱油",
+    "effect": "恢复HP",
+    "resultID": 1,
+    "resultNumber": 999,
+    "pathId": 4,
+    "value": 0,
+    "needAverageGrade": 1000,
+    "uniqueID": 17
+  }
+]

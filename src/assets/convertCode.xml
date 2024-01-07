@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<puTong>57</puTong>
+	<puTong>普通</puTong>
+	<xiaGui>下跪</xiaGui>
+	<lianHong>脸红</lianHong>
+	<juShou>举手</juShou>
+	<ku>哭</ku>
+	<wuQi>伸手</wuQi>
+	<fanJu>作揖</fanJu>
+	<fuZhu>盘坐脸红</fuZhu>
+	<huiTui>盘坐举手</huiTui>
+	
+	<baoCun>盘坐哭</baoCun>
+	<duQu>倒下</duQu>
+	<huiHe>单膝跪地</huiHe>	
+	<chaZhao>被缚</chaZhao>
+	<queRenBaoCun>挥剑扬起</queRenBaoCun>
+	<queRenDuChu>挥剑劈下</queRenDuChu>
+	<xinGuMaoLv>活埋</xinGuMaoLv>
+	<jiuDeZhengZhang>起身</jiuDeZhengZhang>
+	<peiZhi>单手举起</peiZhi>
+	<peiZhi>朝南</peiZhi>
+	<peiZhi>朝北</peiZhi>
+	<peiZhi>朝东</peiZhi>
+	<peiZhi>朝西</peiZhi>
+	<peiZhi>无</peiZhi>
+
+	<peiZhi>举起武器</peiZhi>
+	<peiZhi>防御</peiZhi>
+	<peiZhi>受攻击</peiZhi>
+	<peiZhi>虚弱</peiZhi>
+	<peiZhi>攻击预备</peiZhi>
+	<peiZhi>攻击</peiZhi>
+	<peiZhi>二次攻击</peiZhi>
+	<peiZhi>慢速转圈</peiZhi>
+	<peiZhi>喘气</peiZhi>
+	<peiZhi>晕倒</peiZhi>
+	<peiZhi>快速转圈</peiZhi>
+	<peiZhi>中速转圈</peiZhi>
+
+	<peiZhi>敌军阶段</peiZhi>
+	<peiZhi>友军阶段</peiZhi>
+	<peiZhi>我军阶段</peiZhi>
+
+	<peiZhi>我军或友军</peiZhi>
+	<peiZhi>敌军</peiZhi>
+	<peiZhi>友军</peiZhi>
+	<peiZhi>我军</peiZhi>
+	<peiZhi>任何部队</peiZhi>
+
+
+	<peiZhi>单人</peiZhi>
+	<peiZhi>撤退</peiZhi>
+	<peiZhi>死亡</peiZhi>
+
+	<peiZhi>不</peiZhi>
+
+	<peiZhi>被动出击</peiZhi>
+	<peiZhi>主动出击</peiZhi>
+	<peiZhi>坚守原地</peiZhi>
+	<peiZhi>攻击武将</peiZhi>
+	<peiZhi>到指定点</peiZhi>
+	<peiZhi>跟随武将</peiZhi>
+	<peiZhi>逃至指定点</peiZhi>
+	<peiZhi>放火</peiZhi>
+
+	<peiZhi>显示</peiZhi>
+	<peiZhi>船</peiZhi>
+
+	<peiZhi>默认装备</peiZhi>
+
+	<peiZhi>我军及友军</peiZhi>
+	<peiZhi>指定区域</peiZhi>
+	<peiZhi>整个战场</peiZhi>
+</config>
+

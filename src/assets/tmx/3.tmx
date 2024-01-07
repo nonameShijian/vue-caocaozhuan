@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="28" height="20" tilewidth="48" tileheight="48">
+ <tileset firstgid="1" name="4-1" tilewidth="48" tileheight="48">
+  <image source="map/4-1.jpg" trans="ff00ff" width="1344" height="960"/>
+ </tileset>
+ <layer name="山地" width="28" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzV0zVsVmEUBuC/xbW4FZcWKsCCuzPi7rDh7gww4O4DMgAtrgOeUIrbgLvbhLs+hDQhpP1bIB04yZPcnO+935s73EDg52QgI5nITBayko3s5CAnuchNGHnIGwg+RSlGOMV/OytNGcpSjvJUIIJIKlKJKKKJITaVvmpUpwY1fzurSz3q04CGNKIxTWhKM5rTgpapdLWiNW1oS7tkMp3pQle60Z0e9KQXvelDX/oF6erPAAYyiMEMCZIfzRjGMo7xTGAik1L5rh8zlWlMZwYzmRUkv5BFLGYJS1nG8jR0Jc0a1rKOOOJTyW9jOzvYya4/6EqaQyRwmMQ05M9wlnN/0ZU0t7j9D+//jxMe4v+nBCVD0q+nmrurU4Oa1KI2daibDr2t3dmGtrSjPR3oSKd06BvozkEMZghDGcZwRjCSUYz+g+7JslNSyE+3n8FMZjGbOcxlHvNZwEIWpaFzhcxKVrE6mfxau3XEEc96NrCRTWxmC1vZxvYgnbud7WEv+9jPAQ7+8s4hzwkcJpEjHOUYxznBSU5xmjMp9J23v8BFLnGZK1zlGte5wU1ucZs73OUe93nAQx7xmCc8TaHvmf1zXvCSV7zmDW95x3s+8JFPfOYLX/n2497QQCCEUDKQkUyhyfflsM9JLnITRh7yko/8FKAghShMEYpSjHCKU4KSlKJ0Cl0R9pFUpBJRRBNDLJWpQlW+A24Ifa8=
+  </data>
+ </layer>
+ <layer name="平原" width="28" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy9zTksBGEYxvEZhJU4EuyuFutOsBu1+0jE1btpbGh0bgWFxlU4C7TOwtFQuws0tK44EhoSDRL/L1ZMxGa/2ax5kl/m+2beeR9F8W3MsMDq473uYofDoK5SlBnUJdIMp4eZNh919WNAYm4IwxjBKMa86JrFHOYlZhewiCUsYwWrOvu2sC05u4Nd7GEfBzjEkY6+M5xLzF3gEle4xo3r/S3ucI8HiT3PeNHcX/+YecM7Ptzs8FcVJUD9OgfyDIIJwerPTAjnUIQhXPM+gnMkomCGBVZEq4rHxDATizjYEI8EJCIJyUhBqmZXGud0ZMAOh+tbpkSfSBZz2chBLvKQjwIUogjFml0lv/aWc69ApWSfSBWz1ahBLepQjwY0osnDrha+t+roE2lnvgOd6EI3etCLPoldgzr7RMb5ZwKTmMI0ZrzYoydr7F/HBjb/ues7x/Sc4NSgPpFHup4M7DP5GdclYvOi7xP7uz3j
+  </data>
+ </layer>
+ <layer name="荒地" width="28" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYGKgH5AFYjkglqeTfZZAbAXE1nSyLxSIw4A4HIgj6GRnERAXA3EJEJcCcRmd7IWBSXS2DwTWD4CdZ+hgx1MsYq+A+DUV7fgHxP9BDEYgAmImRioajgYkgWZLYTFfHiimQEN7cQFbOtsZCbQvagD8OQpGwUgAAF0vDN0=
+  </data>
+ </layer>
+ <objectgroup name="playerBegin" width="28" height="20">
+  <object name="2" x="48" y="384" width="48" height="48">
+   <properties>
+    <property name="orientation" value="3"/>
+   </properties>
+  </object>
+  <object name="6" x="0" y="384" width="48" height="48">
+   <properties>
+    <property name="orientation" value="3"/>
+   </properties>
+  </object>
+  <object name="5" x="0" y="240" width="48" height="48">
+   <properties>
+    <property name="orientation" value="3"/>
+   </properties>
+  </object>
+  <object name="1" x="48" y="240" width="48" height="48">
+   <properties>
+    <property name="orientation" value="3"/>
+   </properties>
+  </object>
+  <object name="3" x="48" y="288" width="48" height="48">
+   <properties>
+    <property name="orientation" value="3"/>
+   </properties>
+  </object>
+  <object name="4" x="48" y="336" width="48" height="48">
+   <properties>
+    <property name="orientation" value="3"/>
+   </properties>
+  </object>
+  <object name="0" x="0" y="288" width="48" height="48">
+   <properties>
+    <property name="orientation" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="enemyAIBegin" width="28" height="20">
+  <object name="0" x="1296" y="480" width="48" height="48">
+   <properties>
+    <property name="orientation" value="2"/>
+   </properties>
+  </object>
+  <object name="2" x="1296" y="432" width="48" height="48">
+   <properties>
+    <property name="orientation" value="2"/>
+   </properties>
+  </object>
+  <object name="1" x="1296" y="528" width="48" height="48">
+   <properties>
+    <property name="orientation" value="2"/>
+   </properties>
+  </object>
+  <object name="3" x="1248" y="480" width="48" height="48">
+   <properties>
+    <property name="orientation" value="2"/>
+   </properties>
+  </object>
+  <object name="4" x="1200" y="432" width="48" height="48">
+   <properties>
+    <property name="orientation" value="2"/>
+   </properties>
+  </object>
+  <object name="5" x="1200" y="480" width="48" height="48">
+   <properties>
+    <property name="orientation" value="2"/>
+   </properties>
+  </object>
+  <object name="6" x="384" y="384" width="48" height="48">
+   <properties>
+    <property name="orientation" value="2"/>
+   </properties>
+  </object>
+  <object name="7" x="384" y="432" width="48" height="48">
+   <properties>
+    <property name="orientation" value="2"/>
+   </properties>
+  </object>
+  <object name="8" x="432" y="432" width="48" height="48">
+   <properties>
+    <property name="orientation" value="2"/>
+   </properties>
+  </object>
+  <object name="9" x="1056" y="384" width="48" height="48">
+   <properties>
+    <property name="orientation" value="1"/>
+   </properties>
+  </object>
+  <object name="10" x="1008" y="336" width="48" height="48">
+   <properties>
+    <property name="orientation" value="1"/>
+   </properties>
+  </object>
+  <object name="11" x="1008" y="576" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="12" x="1056" y="528" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="13" x="1104" y="384" width="48" height="48">
+   <properties>
+    <property name="orientation" value="1"/>
+   </properties>
+  </object>
+  <object name="14" x="1104" y="528" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="15" x="192" y="624" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="16" x="144" y="576" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="17" x="192" y="576" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="18" x="240" y="576" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="19" x="144" y="624" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="20" x="240" y="624" width="48" height="48">
+   <properties>
+    <property name="orientation" value="0"/>
+   </properties>
+  </object>
+  <object name="21" x="672" y="240" width="48" height="48">
+   <properties>
+    <property name="orientation" value="1"/>
+   </properties>
+  </object>
+  <object name="22" x="624" y="288" width="48" height="48">
+   <properties>
+    <property name="orientation" value="1"/>
+   </properties>
+  </object>
+  <object name="23" x="672" y="288" width="48" height="48">
+   <properties>
+    <property name="orientation" value="1"/>
+   </properties>
+  </object>
+  <object name="24" x="720" y="288" width="48" height="48">
+   <properties>
+    <property name="orientation" value="1"/>
+   </properties>
+  </object>
+  <object name="25" x="624" y="240" width="48" height="48">
+   <properties>
+    <property name="orientation" value="1"/>
+   </properties>
+  </object>
+  <object name="26" x="720" y="240" width="48" height="48">
+   <properties>
+    <property name="orientation" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="friendAIBegin" width="28" height="20"/>
+ <layer name="树林" width="28" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzV00tyAVEUgOHLIKpkhg2IuWQbXsugsQlCsAdk4LEFEhPdK0h5TogNIMSIZOTveatSLqfKqfpGfer+1S+l9McHPwJXOOucCeMZLwKtCKKICbTsSSIF48adHPJ4ReHGrSpqqOPd4XoTrSu1OujiA5/oOez0YcLSbA0wxAhjTDB12Jthjm8sNHpr/GCDLX6xO7G7xwF/+Ndo2uN1KfXo0jzkzifG/ceREHgOKRoG0sggK9As0nhDCWVUhN53g04TLbQFvzGTlnVh70v4X1jSWwk2H9xKedwyrSCdJ4Qu7B0B0BktDQ==
+  </data>
+ </layer>
+ <layer name="浅滩" width="28" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU0ArcpKNdX4D4Kx3tE2BkYBBkpJ99OkC7dOlonwfQLk862pdCR7tGwdAF7+iYTjiZGBi4mOhnH6kAAHyUBT8=
+  </data>
+ </layer>
+ <layer name="小河" width="28" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAdkKCh2ejAGIhN6GSXHxD708kuEMiio12tQNxGR/sW0tGuPUC8l4723aCjXaNgeIBURvrZ1QC0q5FO9s0G2jOHTnZtA9qznY7heImOdg13oMpEmnoAh9AKjw==
+  </data>
+ </layer>
+ <layer name="城池" width="28" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjAIIYGUcaBeMglEwCkYBcQAAJN8ABw==
+  </data>
+ </layer>
+ <layer name="鹿岩" width="28" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKhDYwZB9oFo2AUjAJ6AwDXHwA1
+  </data>
+ </layer>
+</map>

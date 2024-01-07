@@ -1,0 +1,27 @@
+[
+  {
+    "weatherName": "雪天",
+    "introduce": null,
+    "effectID": null
+  },
+  {
+    "weatherName": "大雨",
+    "introduce": null,
+    "effectID": null
+  },
+  {
+    "weatherName": "小雨",
+    "introduce": null,
+    "effectID": null
+  },
+  {
+    "weatherName": "阴天",
+    "introduce": null,
+    "effectID": null
+  },
+  {
+    "weatherName": "晴天",
+    "introduce": null,
+    "effectID": null
+  }
+]

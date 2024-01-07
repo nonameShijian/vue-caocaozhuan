@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Plot>
+	<Scene>
+		<Section>
+			<loadBackgrand>MMap-94</loadBackgrand>
+			<backGrandMusic>2,true</backGrandMusic>
+			<rolePlay>!曹操,54,80,3,0</rolePlay>
+			<rolePlay>!夏侯惇,44,64,1,1</rolePlay>
+			<rolePlay>!许褚,44,58,1,15</rolePlay>
+			<rolePlay>!张郃,44,52,1,7</rolePlay>
+			<rolePlay>!荀彧,64,64,0,20</rolePlay>
+			<rolePlay>!贾诩,64,58,0,23</rolePlay>
+			<rolePlay>!荀攸,64,52,0,24</rolePlay>
+			<storyAction>19,4,0</storyAction>
+			<dialogue>0,曹操:今天是和黄盖约定的日子，等插着青龙旗的船只一到，我们就出发！</dialogue>
+			<storyAction>0,2,1</storyAction>
+			<dialogue>1,夏侯惇:孟德！</dialogue>
+			<storyAction>0,4,0</storyAction>
+			<dialogue>0,曹操:什么事，元让？</dialogue>
+			<storyAction>5,4,1</storyAction>
+			<dialogue>1,夏侯惇:孟德，我刚才在外面巡视，发现风向变了。</dialogue>
+			<storyAction>0,4,1</storyAction>
+			<dialogue>1,夏侯惇:原本的顺风现在变成了逆风，不知怎的，总有种不祥的预感。</dialogue>
+			<dialogue>0,曹操:元让，你平时不是这样的。不必在意风向了。</dialogue>
+			<storyAction>19,4,0</storyAction>
+			<dialogue>0,曹操:好！大家准备出发！</dialogue>
+			<storyAction>0,4,0</storyAction>
+			<storyAction>0,1,1</storyAction>
+		</Section>	
+		<section>
+			<!--r剧本要重开1个section-->
+			<SceneNameSet>赤壁之战</SceneNameSet>
+			<RShowMenu>true</RShowMenu>
+		</section>	
+	</Scene>
+</Plot>
+

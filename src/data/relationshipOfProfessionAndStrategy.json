@@ -1,0 +1,1220 @@
+[
+  {
+    "armName": "君主",
+    "professionGrade": 2,
+    "grade": 25,
+    "strategyName": "火阵",
+    "ID": 1
+  },
+  {
+    "armName": "君主",
+    "professionGrade": 1,
+    "grade": 1,
+    "strategyName": "旋风",
+    "ID": 2
+  },
+  {
+    "armName": "君主",
+    "professionGrade": 2,
+    "grade": 15,
+    "strategyName": "风阵",
+    "ID": 3
+  },
+  {
+    "armName": "君主",
+    "professionGrade": 3,
+    "grade": 30,
+    "strategyName": "威吓",
+    "ID": 4
+  },
+  {
+    "armName": "君主",
+    "professionGrade": 1,
+    "grade": 5,
+    "strategyName": "小补给",
+    "ID": 5
+  },
+  {
+    "armName": "君主",
+    "professionGrade": 2,
+    "grade": 20,
+    "strategyName": "建言",
+    "ID": 6
+  },
+  {
+    "armName": "君主",
+    "professionGrade": 1,
+    "grade": 10,
+    "strategyName": "霸气",
+    "ID": 7
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 1,
+    "grade": 1,
+    "strategyName": "小补给",
+    "ID": 8
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 1,
+    "grade": 3,
+    "strategyName": "昂扬",
+    "ID": 9
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 1,
+    "grade": 5,
+    "strategyName": "练兵",
+    "ID": 10
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 1,
+    "grade": 7,
+    "strategyName": "觉醒",
+    "ID": 11
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 1,
+    "grade": 9,
+    "strategyName": "坚固",
+    "ID": 12
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 1,
+    "grade": 11,
+    "strategyName": "建言",
+    "ID": 13
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 1,
+    "grade": 13,
+    "strategyName": "奋起",
+    "ID": 14
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 2,
+    "grade": 15,
+    "strategyName": "援队",
+    "ID": 15
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 2,
+    "grade": 15,
+    "strategyName": "大补给",
+    "ID": 16
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 2,
+    "grade": 17,
+    "strategyName": "欢声",
+    "ID": 17
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 2,
+    "grade": 19,
+    "strategyName": "练队",
+    "ID": 18
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 2,
+    "grade": 21,
+    "strategyName": "强行",
+    "ID": 19
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 2,
+    "grade": 23,
+    "strategyName": "强阵",
+    "ID": 20
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 2,
+    "grade": 25,
+    "strategyName": "输送",
+    "ID": 21
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 2,
+    "grade": 27,
+    "strategyName": "鼓舞",
+    "ID": 22
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 2,
+    "grade": 29,
+    "strategyName": "献策",
+    "ID": 23
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 3,
+    "grade": 30,
+    "strategyName": "回归",
+    "ID": 24
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 3,
+    "grade": 31,
+    "strategyName": "大觉醒",
+    "ID": 25
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 3,
+    "grade": 33,
+    "strategyName": "援军",
+    "ID": 26
+  },
+  {
+    "armName": "仙术师",
+    "professionGrade": 3,
+    "grade": 35,
+    "strategyName": "白虎",
+    "ID": 27
+  },
+  {
+    "armName": "舞娘",
+    "professionGrade": 1,
+    "grade": 1,
+    "strategyName": "觉醒",
+    "ID": 31
+  },
+  {
+    "armName": "舞娘",
+    "professionGrade": 1,
+    "grade": 8,
+    "strategyName": "奋起",
+    "ID": 32
+  },
+  {
+    "armName": "舞娘",
+    "professionGrade": 2,
+    "grade": 15,
+    "strategyName": "诱惑",
+    "ID": 33
+  },
+  {
+    "armName": "舞娘",
+    "professionGrade": 2,
+    "grade": 22,
+    "strategyName": "大觉醒",
+    "ID": 34
+  },
+  {
+    "armName": "舞娘",
+    "professionGrade": 3,
+    "grade": 30,
+    "strategyName": "晕眩",
+    "ID": 35
+  },
+  {
+    "armName": "贼兵",
+    "professionGrade": 1,
+    "grade": 1,
+    "strategyName": "落石",
+    "ID": 38
+  },
+  {
+    "armName": "贼兵",
+    "professionGrade": 1,
+    "grade": 8,
+    "strategyName": "咒骂",
+    "ID": 39
+  },
+  {
+    "armName": "贼兵",
+    "professionGrade": 2,
+    "grade": 15,
+    "strategyName": "山岚",
+    "ID": 40
+  },
+  {
+    "armName": "贼兵",
+    "professionGrade": 3,
+    "grade": 30,
+    "strategyName": "巨岩",
+    "ID": 41
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 1,
+    "grade": 1,
+    "strategyName": "毒烟",
+    "ID": 43
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 1,
+    "grade": 3,
+    "strategyName": "虚脱",
+    "ID": 44
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 1,
+    "grade": 5,
+    "strategyName": "钝兵",
+    "ID": 45
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 1,
+    "grade": 7,
+    "strategyName": "诱惑",
+    "ID": 46
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 1,
+    "grade": 9,
+    "strategyName": "小补给",
+    "ID": 47
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 1,
+    "grade": 11,
+    "strategyName": "定身",
+    "ID": 48
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 1,
+    "grade": 13,
+    "strategyName": "压迫",
+    "ID": 49
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 2,
+    "grade": 15,
+    "strategyName": "咒骂",
+    "ID": 50
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 2,
+    "grade": 15,
+    "strategyName": "谎报",
+    "ID": 51
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 2,
+    "grade": 17,
+    "strategyName": "封咒",
+    "ID": 52
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 2,
+    "grade": 19,
+    "strategyName": "大补给",
+    "ID": 53
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 2,
+    "grade": 20,
+    "strategyName": "厌战",
+    "ID": 54
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 2,
+    "grade": 21,
+    "strategyName": "钝队",
+    "ID": 55
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 2,
+    "grade": 23,
+    "strategyName": "谍报",
+    "ID": 56
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 2,
+    "grade": 25,
+    "strategyName": "毒雾",
+    "ID": 57
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 2,
+    "grade": 27,
+    "strategyName": "威吓",
+    "ID": 58
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 2,
+    "grade": 29,
+    "strategyName": "挑拨",
+    "ID": 59
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 3,
+    "grade": 30,
+    "strategyName": "定军",
+    "ID": 60
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 3,
+    "grade": 30,
+    "strategyName": "谎言",
+    "ID": 61
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 3,
+    "grade": 31,
+    "strategyName": "晕眩",
+    "ID": 62
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 3,
+    "grade": 33,
+    "strategyName": "八阵图",
+    "ID": 63
+  },
+  {
+    "armName": "妖术师",
+    "professionGrade": 3,
+    "grade": 35,
+    "strategyName": "玄武",
+    "ID": 64
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 1,
+    "grade": 1,
+    "strategyName": "灼热",
+    "ID": 68
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 1,
+    "grade": 3,
+    "strategyName": "气合",
+    "ID": 69
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 1,
+    "grade": 5,
+    "strategyName": "落石",
+    "ID": 70
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 1,
+    "grade": 7,
+    "strategyName": "浊流",
+    "ID": 71
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 1,
+    "grade": 9,
+    "strategyName": "小补给",
+    "ID": 72
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 1,
+    "grade": 11,
+    "strategyName": "火阵",
+    "ID": 73
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 1,
+    "grade": 13,
+    "strategyName": "地阵",
+    "ID": 74
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 2,
+    "grade": 15,
+    "strategyName": "水阵",
+    "ID": 75
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 2,
+    "grade": 15,
+    "strategyName": "旋风",
+    "ID": 76
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 2,
+    "grade": 17,
+    "strategyName": "烈火",
+    "ID": 77
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 2,
+    "grade": 19,
+    "strategyName": "山岚",
+    "ID": 78
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 2,
+    "grade": 21,
+    "strategyName": "激流",
+    "ID": 79
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 2,
+    "grade": 23,
+    "strategyName": "冥想",
+    "ID": 80
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 2,
+    "grade": 25,
+    "strategyName": "巨岩",
+    "ID": 81
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 2,
+    "grade": 27,
+    "strategyName": "海啸",
+    "ID": 82
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 2,
+    "grade": 29,
+    "strategyName": "地龙",
+    "ID": 83
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 3,
+    "grade": 30,
+    "strategyName": "爆焰",
+    "ID": 84
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 3,
+    "grade": 31,
+    "strategyName": "水龙",
+    "ID": 85
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 3,
+    "grade": 33,
+    "strategyName": "火龙",
+    "ID": 86
+  },
+  {
+    "armName": "策士",
+    "professionGrade": 3,
+    "grade": 35,
+    "strategyName": "朱雀",
+    "ID": 87
+  },
+  {
+    "armName": "武道家",
+    "professionGrade": 1,
+    "grade": 1,
+    "strategyName": "气合",
+    "ID": 88
+  },
+  {
+    "armName": "武道家",
+    "professionGrade": 1,
+    "grade": 8,
+    "strategyName": "钝兵",
+    "ID": 89
+  },
+  {
+    "armName": "武道家",
+    "professionGrade": 2,
+    "grade": 15,
+    "strategyName": "毒烟",
+    "ID": 90
+  },
+  {
+    "armName": "武道家",
+    "professionGrade": 3,
+    "grade": 30,
+    "strategyName": "钝队",
+    "ID": 91
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 1,
+    "grade": 3,
+    "strategyName": "气合",
+    "ID": 93
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 1,
+    "grade": 4,
+    "strategyName": "旋风",
+    "ID": 94
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 1,
+    "grade": 5,
+    "strategyName": "灼热",
+    "ID": 95
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 1,
+    "grade": 7,
+    "strategyName": "落石",
+    "ID": 96
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 1,
+    "grade": 9,
+    "strategyName": "小补给",
+    "ID": 97
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 1,
+    "grade": 11,
+    "strategyName": "风阵",
+    "ID": 98
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 2,
+    "grade": 15,
+    "strategyName": "火阵",
+    "ID": 100
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 2,
+    "grade": 15,
+    "strategyName": "龙卷",
+    "ID": 101
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 2,
+    "grade": 17,
+    "strategyName": "定身",
+    "ID": 102
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 2,
+    "grade": 19,
+    "strategyName": "烈火",
+    "ID": 103
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 2,
+    "grade": 21,
+    "strategyName": "山岚",
+    "ID": 104
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 2,
+    "grade": 23,
+    "strategyName": "冥想",
+    "ID": 105
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 2,
+    "grade": 25,
+    "strategyName": "巨岩",
+    "ID": 106
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 2,
+    "grade": 29,
+    "strategyName": "沙暴",
+    "ID": 108
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 3,
+    "grade": 31,
+    "strategyName": "爆焰",
+    "ID": 110
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 3,
+    "grade": 32,
+    "strategyName": "风龙",
+    "ID": 111
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 3,
+    "grade": 33,
+    "strategyName": "火龙",
+    "ID": 112
+  },
+  {
+    "armName": "骑马策士",
+    "professionGrade": 3,
+    "grade": 35,
+    "strategyName": "青龙",
+    "ID": 113
+  },
+  {
+    "armName": "海盗",
+    "professionGrade": 1,
+    "grade": 1,
+    "strategyName": "浊流",
+    "ID": 116
+  },
+  {
+    "armName": "海盗",
+    "professionGrade": 1,
+    "grade": 8,
+    "strategyName": "咒骂",
+    "ID": 117
+  },
+  {
+    "armName": "海盗",
+    "professionGrade": 1,
+    "grade": 15,
+    "strategyName": "激流",
+    "ID": 118
+  },
+  {
+    "armName": "海盗",
+    "professionGrade": 1,
+    "grade": 30,
+    "strategyName": "海啸",
+    "ID": 119
+  },
+  {
+    "armName": "都督",
+    "professionGrade": 1,
+    "grade": 1,
+    "strategyName": "浊流",
+    "ID": 120
+  },
+  {
+    "armName": "都督",
+    "professionGrade": 1,
+    "grade": 4,
+    "strategyName": "灼热",
+    "ID": 121
+  },
+  {
+    "armName": "都督",
+    "professionGrade": 1,
+    "grade": 8,
+    "strategyName": "水阵",
+    "ID": 122
+  },
+  {
+    "armName": "都督",
+    "professionGrade": 1,
+    "grade": 12,
+    "strategyName": "小补给",
+    "ID": 123
+  },
+  {
+    "armName": "都督",
+    "professionGrade": 1,
+    "grade": 16,
+    "strategyName": "激流",
+    "ID": 124
+  },
+  {
+    "armName": "都督",
+    "professionGrade": 1,
+    "grade": 20,
+    "strategyName": "谎报",
+    "ID": 125
+  },
+  {
+    "armName": "都督",
+    "professionGrade": 1,
+    "grade": 24,
+    "strategyName": "火阵",
+    "ID": 126
+  },
+  {
+    "armName": "都督",
+    "professionGrade": 1,
+    "grade": 28,
+    "strategyName": "水龙",
+    "ID": 127
+  },
+  {
+    "armName": "都督",
+    "professionGrade": 1,
+    "grade": 32,
+    "strategyName": "海啸",
+    "ID": 128
+  },
+  {
+    "armName": "都督",
+    "professionGrade": 1,
+    "grade": 35,
+    "strategyName": "火龙",
+    "ID": 129
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 1,
+    "strategyName": "灼热",
+    "ID": 130
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 1,
+    "strategyName": "浊流",
+    "ID": 131
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 1,
+    "strategyName": "旋风",
+    "ID": 132
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 1,
+    "strategyName": "毒烟",
+    "ID": 133
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 1,
+    "strategyName": "小补给",
+    "ID": 134
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 3,
+    "strategyName": "气合",
+    "ID": 135
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 3,
+    "strategyName": "虚脱",
+    "ID": 136
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 4,
+    "strategyName": "昂扬",
+    "ID": 137
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 4,
+    "strategyName": "钝兵",
+    "ID": 138
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 7,
+    "strategyName": "练兵",
+    "ID": 139
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 7,
+    "strategyName": "落石",
+    "ID": 140
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 7,
+    "strategyName": "诱惑",
+    "ID": 141
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 8,
+    "strategyName": "觉醒",
+    "ID": 142
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 9,
+    "strategyName": "水阵",
+    "ID": 143
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 11,
+    "strategyName": "坚固",
+    "ID": 144
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 11,
+    "strategyName": "定身",
+    "ID": 145
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 11,
+    "strategyName": "风阵",
+    "ID": 146
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 13,
+    "strategyName": "奋起",
+    "ID": 147
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 13,
+    "strategyName": "火阵",
+    "ID": 148
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 13,
+    "strategyName": "压迫",
+    "ID": 149
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 15,
+    "strategyName": "援队",
+    "ID": 150
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 15,
+    "strategyName": "龙卷",
+    "ID": 151
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 15,
+    "strategyName": "地阵",
+    "ID": 152
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 15,
+    "strategyName": "咒骂",
+    "ID": 153
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 15,
+    "strategyName": "谎报",
+    "ID": 154
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 16,
+    "strategyName": "大补给",
+    "ID": 155
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 17,
+    "strategyName": "欢声",
+    "ID": 156
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 17,
+    "strategyName": "激流",
+    "ID": 157
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 17,
+    "strategyName": "烈火",
+    "ID": 158
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 19,
+    "strategyName": "封咒",
+    "ID": 159
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 19,
+    "strategyName": "练队",
+    "ID": 160
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 20,
+    "strategyName": "山岚",
+    "ID": 161
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 21,
+    "strategyName": "钝队",
+    "ID": 162
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 21,
+    "strategyName": "建言",
+    "ID": 163
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 23,
+    "strategyName": "厌战",
+    "ID": 164
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 23,
+    "strategyName": "强行",
+    "ID": 165
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 23,
+    "strategyName": "谍报",
+    "ID": 166
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 25,
+    "strategyName": "强阵",
+    "ID": 167
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 25,
+    "strategyName": "冥想",
+    "ID": 168
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 27,
+    "strategyName": "毒雾",
+    "ID": 169
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 27,
+    "strategyName": "鼓舞",
+    "ID": 170
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 28,
+    "strategyName": "威吓",
+    "ID": 171
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 29,
+    "strategyName": "献策",
+    "ID": 172
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 29,
+    "strategyName": "水龙",
+    "ID": 173
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 30,
+    "strategyName": "挑拨",
+    "ID": 174
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 30,
+    "strategyName": "大觉醒",
+    "ID": 175
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 30,
+    "strategyName": "地龙",
+    "ID": 176
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 30,
+    "strategyName": "晕眩",
+    "ID": 177
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 30,
+    "strategyName": "谎言",
+    "ID": 178
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 31,
+    "strategyName": "定军",
+    "ID": 179
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 32,
+    "strategyName": "输送",
+    "ID": 180
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 33,
+    "strategyName": "回归",
+    "ID": 181
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 33,
+    "strategyName": "风龙",
+    "ID": 182
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 33,
+    "strategyName": "火龙",
+    "ID": 183
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 35,
+    "strategyName": "八阵图",
+    "ID": 184
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 35,
+    "strategyName": "援军",
+    "ID": 185
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 40,
+    "strategyName": "沙暴",
+    "ID": 186
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 40,
+    "strategyName": "白虎",
+    "ID": 187
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 40,
+    "strategyName": "朱雀",
+    "ID": 188
+  },
+  {
+    "armName": "咒术士",
+    "professionGrade": 1,
+    "grade": 40,
+    "strategyName": "水龙",
+    "ID": 189
+  }
+]

@@ -1,0 +1,1661 @@
+[
+  {
+    "armName": "君主",
+    "terrainName": "山地",
+    "addition": 80,
+    "moveConsum": 3,
+    "combinationId": 11001
+  },
+  {
+    "armName": "君主",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 11003
+  },
+  {
+    "armName": "君主",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 11004
+  },
+  {
+    "armName": "君主",
+    "terrainName": "草原",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 11008
+  },
+  {
+    "armName": "君主",
+    "terrainName": "树林",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 11009
+  },
+  {
+    "armName": "君主",
+    "terrainName": "荒地",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 11010
+  },
+  {
+    "armName": "君主",
+    "terrainName": "雪原",
+    "addition": 100,
+    "moveConsum": 2,
+    "combinationId": 11011
+  },
+  {
+    "armName": "君主",
+    "terrainName": "桥梁",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 11012
+  },
+  {
+    "armName": "君主",
+    "terrainName": "浅滩",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 11013
+  },
+  {
+    "armName": "君主",
+    "terrainName": "沼泽",
+    "addition": 80,
+    "moveConsum": 3,
+    "combinationId": 11014
+  },
+  {
+    "armName": "君主",
+    "terrainName": "大河",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 11015
+  },
+  {
+    "armName": "君主",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 11016
+  },
+  {
+    "armName": "骑兵",
+    "terrainName": "平原",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 21000
+  },
+  {
+    "armName": "骑兵",
+    "terrainName": "山地",
+    "addition": 80,
+    "moveConsum": 3,
+    "combinationId": 21001
+  },
+  {
+    "armName": "骑兵",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 21003
+  },
+  {
+    "armName": "骑兵",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 21004
+  },
+  {
+    "armName": "骑兵",
+    "terrainName": "草原",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 21008
+  },
+  {
+    "armName": "骑兵",
+    "terrainName": "树林",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 21009
+  },
+  {
+    "armName": "骑兵",
+    "terrainName": "荒地",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 21010
+  },
+  {
+    "armName": "骑兵",
+    "terrainName": "雪原",
+    "addition": 100,
+    "moveConsum": 2,
+    "combinationId": 21011
+  },
+  {
+    "armName": "骑兵",
+    "terrainName": "桥梁",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 21012
+  },
+  {
+    "armName": "骑兵",
+    "terrainName": "浅滩",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 21013
+  },
+  {
+    "armName": "骑兵",
+    "terrainName": "沼泽",
+    "addition": 80,
+    "moveConsum": 3,
+    "combinationId": 21014
+  },
+  {
+    "armName": "骑兵",
+    "terrainName": "大河",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 21015
+  },
+  {
+    "armName": "骑兵",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 21016
+  },
+  {
+    "armName": "步兵",
+    "terrainName": "山地",
+    "addition": 100,
+    "moveConsum": 2,
+    "combinationId": 31001
+  },
+  {
+    "armName": "步兵",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 31003
+  },
+  {
+    "armName": "步兵",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 31004
+  },
+  {
+    "armName": "步兵",
+    "terrainName": "城内",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 31007
+  },
+  {
+    "armName": "步兵",
+    "terrainName": "浅滩",
+    "addition": 100,
+    "moveConsum": 2,
+    "combinationId": 31013
+  },
+  {
+    "armName": "步兵",
+    "terrainName": "沼泽",
+    "addition": 100,
+    "moveConsum": 2,
+    "combinationId": 31014
+  },
+  {
+    "armName": "步兵",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 31016
+  },
+  {
+    "armName": "西凉骑兵",
+    "terrainName": "山地",
+    "addition": 110,
+    "moveConsum": 2,
+    "combinationId": 41001
+  },
+  {
+    "armName": "西凉骑兵",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 41003
+  },
+  {
+    "armName": "西凉骑兵",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 41004
+  },
+  {
+    "armName": "西凉骑兵",
+    "terrainName": "树林",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 41009
+  },
+  {
+    "armName": "西凉骑兵",
+    "terrainName": "荒地",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 41010
+  },
+  {
+    "armName": "西凉骑兵",
+    "terrainName": "雪原",
+    "addition": 110,
+    "moveConsum": 2,
+    "combinationId": 41011
+  },
+  {
+    "armName": "西凉骑兵",
+    "terrainName": "浅滩",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 41013
+  },
+  {
+    "armName": "西凉骑兵",
+    "terrainName": "沼泽",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 41014
+  },
+  {
+    "armName": "西凉骑兵",
+    "terrainName": "大河",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 41015
+  },
+  {
+    "armName": "西凉骑兵",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 41016
+  },
+  {
+    "armName": "弓骑兵",
+    "terrainName": "山地",
+    "addition": 80,
+    "moveConsum": 3,
+    "combinationId": 51001
+  },
+  {
+    "armName": "弓骑兵",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 51003
+  },
+  {
+    "armName": "弓骑兵",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 51004
+  },
+  {
+    "armName": "弓骑兵",
+    "terrainName": "草原",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 51008
+  },
+  {
+    "armName": "弓骑兵",
+    "terrainName": "树林",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 51009
+  },
+  {
+    "armName": "弓骑兵",
+    "terrainName": "荒地",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 51010
+  },
+  {
+    "armName": "弓骑兵",
+    "terrainName": "雪原",
+    "addition": 100,
+    "moveConsum": 2,
+    "combinationId": 51011
+  },
+  {
+    "armName": "弓骑兵",
+    "terrainName": "桥梁",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 51012
+  },
+  {
+    "armName": "弓骑兵",
+    "terrainName": "浅滩",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 51013
+  },
+  {
+    "armName": "弓骑兵",
+    "terrainName": "沼泽",
+    "addition": 80,
+    "moveConsum": 3,
+    "combinationId": 51014
+  },
+  {
+    "armName": "弓骑兵",
+    "terrainName": "大河",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 51015
+  },
+  {
+    "armName": "弓骑兵",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 51016
+  },
+  {
+    "armName": "弓兵",
+    "terrainName": "山地",
+    "addition": 100,
+    "moveConsum": 2,
+    "combinationId": 61001
+  },
+  {
+    "armName": "弓兵",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 61003
+  },
+  {
+    "armName": "弓兵",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 61004
+  },
+  {
+    "armName": "弓兵",
+    "terrainName": "城内",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 61007
+  },
+  {
+    "armName": "弓兵",
+    "terrainName": "浅滩",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 61013
+  },
+  {
+    "armName": "弓兵",
+    "terrainName": "沼泽",
+    "addition": 100,
+    "moveConsum": 2,
+    "combinationId": 61014
+  },
+  {
+    "armName": "弓兵",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 61016
+  },
+  {
+    "armName": "贼兵",
+    "terrainName": "山地",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 71001
+  },
+  {
+    "armName": "贼兵",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 71003
+  },
+  {
+    "armName": "贼兵",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 71004
+  },
+  {
+    "armName": "贼兵",
+    "terrainName": "树林",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 71009
+  },
+  {
+    "armName": "贼兵",
+    "terrainName": "荒地",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 71010
+  },
+  {
+    "armName": "贼兵",
+    "terrainName": "雪原",
+    "addition": 80,
+    "moveConsum": 1,
+    "combinationId": 71011
+  },
+  {
+    "armName": "贼兵",
+    "terrainName": "浅滩",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 71013
+  },
+  {
+    "armName": "贼兵",
+    "terrainName": "沼泽",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 71014
+  },
+  {
+    "armName": "贼兵",
+    "terrainName": "大河",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 71015
+  },
+  {
+    "armName": "贼兵",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 71016
+  },
+  {
+    "armName": "武道家",
+    "terrainName": "山地",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 81001
+  },
+  {
+    "armName": "武道家",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 81003
+  },
+  {
+    "armName": "武道家",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 81004
+  },
+  {
+    "armName": "武道家",
+    "terrainName": "雪原",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 81011
+  },
+  {
+    "armName": "武道家",
+    "terrainName": "浅滩",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 81013
+  },
+  {
+    "armName": "武道家",
+    "terrainName": "沼泽",
+    "addition": 100,
+    "moveConsum": 2,
+    "combinationId": 81014
+  },
+  {
+    "armName": "武道家",
+    "terrainName": "大河",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 81015
+  },
+  {
+    "armName": "武道家",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 81016
+  },
+  {
+    "armName": "策士",
+    "terrainName": "山地",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 91001
+  },
+  {
+    "armName": "策士",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 91003
+  },
+  {
+    "armName": "策士",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 91004
+  },
+  {
+    "armName": "策士",
+    "terrainName": "荒地",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 91010
+  },
+  {
+    "armName": "策士",
+    "terrainName": "雪原",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 91011
+  },
+  {
+    "armName": "策士",
+    "terrainName": "浅滩",
+    "addition": 100,
+    "moveConsum": 2,
+    "combinationId": 91013
+  },
+  {
+    "armName": "策士",
+    "terrainName": "沼泽",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 91014
+  },
+  {
+    "armName": "策士",
+    "terrainName": "大河",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 91015
+  },
+  {
+    "armName": "策士",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 91016
+  },
+  {
+    "armName": "妖术师",
+    "terrainName": "山地",
+    "addition": 110,
+    "moveConsum": 2,
+    "combinationId": 101001
+  },
+  {
+    "armName": "妖术师",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 101003
+  },
+  {
+    "armName": "妖术师",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 101004
+  },
+  {
+    "armName": "妖术师",
+    "terrainName": "雪原",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 101011
+  },
+  {
+    "armName": "妖术师",
+    "terrainName": "浅滩",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 101013
+  },
+  {
+    "armName": "妖术师",
+    "terrainName": "沼泽",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 101014
+  },
+  {
+    "armName": "妖术师",
+    "terrainName": "大河",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 101015
+  },
+  {
+    "armName": "妖术师",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 101016
+  },
+  {
+    "armName": "仙术师",
+    "terrainName": "山地",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 111001
+  },
+  {
+    "armName": "仙术师",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 111003
+  },
+  {
+    "armName": "仙术师",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 111004
+  },
+  {
+    "armName": "仙术师",
+    "terrainName": "荒地",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 111010
+  },
+  {
+    "armName": "仙术师",
+    "terrainName": "浅滩",
+    "addition": 100,
+    "moveConsum": 2,
+    "combinationId": 111013
+  },
+  {
+    "armName": "仙术师",
+    "terrainName": "沼泽",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 111014
+  },
+  {
+    "armName": "仙术师",
+    "terrainName": "大河",
+    "addition": 100,
+    "moveConsum": 2,
+    "combinationId": 111015
+  },
+  {
+    "armName": "仙术师",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 111016
+  },
+  {
+    "armName": "舞娘",
+    "terrainName": "山地",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 121001
+  },
+  {
+    "armName": "舞娘",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 121003
+  },
+  {
+    "armName": "舞娘",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 121004
+  },
+  {
+    "armName": "舞娘",
+    "terrainName": "荒地",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 121010
+  },
+  {
+    "armName": "舞娘",
+    "terrainName": "雪原",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 121011
+  },
+  {
+    "armName": "舞娘",
+    "terrainName": "浅滩",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 121013
+  },
+  {
+    "armName": "舞娘",
+    "terrainName": "沼泽",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 121014
+  },
+  {
+    "armName": "舞娘",
+    "terrainName": "大河",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 121015
+  },
+  {
+    "armName": "舞娘",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 121016
+  },
+  {
+    "armName": "炮兵",
+    "terrainName": "山地",
+    "addition": 120,
+    "moveConsum": 3,
+    "combinationId": 131001
+  },
+  {
+    "armName": "炮兵",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 131003
+  },
+  {
+    "armName": "炮兵",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 131004
+  },
+  {
+    "armName": "炮兵",
+    "terrainName": "城内",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 131007
+  },
+  {
+    "armName": "炮兵",
+    "terrainName": "树林",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 131009
+  },
+  {
+    "armName": "炮兵",
+    "terrainName": "荒地",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 131010
+  },
+  {
+    "armName": "炮兵",
+    "terrainName": "雪原",
+    "addition": 110,
+    "moveConsum": 2,
+    "combinationId": 131011
+  },
+  {
+    "armName": "炮兵",
+    "terrainName": "桥梁",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 131012
+  },
+  {
+    "armName": "炮兵",
+    "terrainName": "浅滩",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 131013
+  },
+  {
+    "armName": "炮兵",
+    "terrainName": "沼泽",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 131014
+  },
+  {
+    "armName": "炮兵",
+    "terrainName": "大河",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 131015
+  },
+  {
+    "armName": "炮兵",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 131016
+  },
+  {
+    "armName": "都督",
+    "terrainName": "山地",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 141001
+  },
+  {
+    "armName": "都督",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 141003
+  },
+  {
+    "armName": "都督",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 141004
+  },
+  {
+    "armName": "都督",
+    "terrainName": "荒地",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 141010
+  },
+  {
+    "armName": "都督",
+    "terrainName": "雪原",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 141011
+  },
+  {
+    "armName": "都督",
+    "terrainName": "浅滩",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 141013
+  },
+  {
+    "armName": "都督",
+    "terrainName": "大河",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 141015
+  },
+  {
+    "armName": "都督",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 141016
+  },
+  {
+    "armName": "海盗",
+    "terrainName": "山地",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 151001
+  },
+  {
+    "armName": "海盗",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 151003
+  },
+  {
+    "armName": "海盗",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 151004
+  },
+  {
+    "armName": "海盗",
+    "terrainName": "荒地",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 151010
+  },
+  {
+    "armName": "海盗",
+    "terrainName": "雪原",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 151011
+  },
+  {
+    "armName": "海盗",
+    "terrainName": "浅滩",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 151013
+  },
+  {
+    "armName": "海盗",
+    "terrainName": "大河",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 151015
+  },
+  {
+    "armName": "海盗",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 151016
+  },
+  {
+    "armName": "骑马策士",
+    "terrainName": "山地",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 161001
+  },
+  {
+    "armName": "骑马策士",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 161003
+  },
+  {
+    "armName": "骑马策士",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 161004
+  },
+  {
+    "armName": "骑马策士",
+    "terrainName": "草原",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 161008
+  },
+  {
+    "armName": "骑马策士",
+    "terrainName": "树林",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 161009
+  },
+  {
+    "armName": "骑马策士",
+    "terrainName": "荒地",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 161010
+  },
+  {
+    "armName": "骑马策士",
+    "terrainName": "雪原",
+    "addition": 100,
+    "moveConsum": 2,
+    "combinationId": 161011
+  },
+  {
+    "armName": "骑马策士",
+    "terrainName": "桥梁",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 161012
+  },
+  {
+    "armName": "骑马策士",
+    "terrainName": "浅滩",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 161013
+  },
+  {
+    "armName": "骑马策士",
+    "terrainName": "沼泽",
+    "addition": 80,
+    "moveConsum": 3,
+    "combinationId": 161014
+  },
+  {
+    "armName": "骑马策士",
+    "terrainName": "大河",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 161015
+  },
+  {
+    "armName": "骑马策士",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 161016
+  },
+  {
+    "armName": "咒术士",
+    "terrainName": "山地",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 171001
+  },
+  {
+    "armName": "咒术士",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 171003
+  },
+  {
+    "armName": "咒术士",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 171004
+  },
+  {
+    "armName": "咒术士",
+    "terrainName": "雪原",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 171011
+  },
+  {
+    "armName": "咒术士",
+    "terrainName": "浅滩",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 171013
+  },
+  {
+    "armName": "咒术士",
+    "terrainName": "沼泽",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 171014
+  },
+  {
+    "armName": "咒术士",
+    "terrainName": "大河",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 171015
+  },
+  {
+    "armName": "咒术士",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 171016
+  },
+  {
+    "armName": "驯熊师",
+    "terrainName": "山地",
+    "addition": 100,
+    "moveConsum": 2,
+    "combinationId": 181001
+  },
+  {
+    "armName": "驯熊师",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 181003
+  },
+  {
+    "armName": "驯熊师",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 181004
+  },
+  {
+    "armName": "驯熊师",
+    "terrainName": "草原",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 181008
+  },
+  {
+    "armName": "驯熊师",
+    "terrainName": "树林",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 181009
+  },
+  {
+    "armName": "驯熊师",
+    "terrainName": "荒地",
+    "addition": 110,
+    "moveConsum": 2,
+    "combinationId": 181010
+  },
+  {
+    "armName": "驯熊师",
+    "terrainName": "桥梁",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 181012
+  },
+  {
+    "armName": "驯熊师",
+    "terrainName": "浅滩",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 181013
+  },
+  {
+    "armName": "驯熊师",
+    "terrainName": "沼泽",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 181014
+  },
+  {
+    "armName": "驯熊师",
+    "terrainName": "大河",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 181015
+  },
+  {
+    "armName": "驯熊师",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 181016
+  },
+  {
+    "armName": "驯虎师",
+    "terrainName": "山地",
+    "addition": 110,
+    "moveConsum": 2,
+    "combinationId": 191001
+  },
+  {
+    "armName": "驯虎师",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 191003
+  },
+  {
+    "armName": "驯虎师",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 191004
+  },
+  {
+    "armName": "驯虎师",
+    "terrainName": "树林",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 191009
+  },
+  {
+    "armName": "驯虎师",
+    "terrainName": "荒地",
+    "addition": 110,
+    "moveConsum": 2,
+    "combinationId": 191010
+  },
+  {
+    "armName": "驯虎师",
+    "terrainName": "浅滩",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 191013
+  },
+  {
+    "armName": "驯虎师",
+    "terrainName": "沼泽",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 191014
+  },
+  {
+    "armName": "驯虎师",
+    "terrainName": "大河",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 191015
+  },
+  {
+    "armName": "驯虎师",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 191016
+  },
+  {
+    "armName": "皇帝",
+    "terrainName": "平原",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 211000
+  },
+  {
+    "armName": "皇帝",
+    "terrainName": "山地",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 211001
+  },
+  {
+    "armName": "皇帝",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 211003
+  },
+  {
+    "armName": "皇帝",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 211004
+  },
+  {
+    "armName": "皇帝",
+    "terrainName": "草原",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 211008
+  },
+  {
+    "armName": "皇帝",
+    "terrainName": "树林",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 211009
+  },
+  {
+    "armName": "皇帝",
+    "terrainName": "荒地",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 211010
+  },
+  {
+    "armName": "皇帝",
+    "terrainName": "雪原",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 211011
+  },
+  {
+    "armName": "皇帝",
+    "terrainName": "浅滩",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 211013
+  },
+  {
+    "armName": "皇帝",
+    "terrainName": "沼泽",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 211014
+  },
+  {
+    "armName": "皇帝",
+    "terrainName": "大河",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 211015
+  },
+  {
+    "armName": "皇帝",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 211016
+  },
+  {
+    "armName": "木人",
+    "terrainName": "山地",
+    "addition": 110,
+    "moveConsum": 2,
+    "combinationId": 221001
+  },
+  {
+    "armName": "木人",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 221003
+  },
+  {
+    "armName": "木人",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 221004
+  },
+  {
+    "armName": "木人",
+    "terrainName": "树林",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 221009
+  },
+  {
+    "armName": "木人",
+    "terrainName": "荒地",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 221010
+  },
+  {
+    "armName": "木人",
+    "terrainName": "雪原",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 221011
+  },
+  {
+    "armName": "木人",
+    "terrainName": "浅滩",
+    "addition": 110,
+    "moveConsum": 2,
+    "combinationId": 221013
+  },
+  {
+    "armName": "木人",
+    "terrainName": "沼泽",
+    "addition": 110,
+    "moveConsum": 2,
+    "combinationId": 221014
+  },
+  {
+    "armName": "木人",
+    "terrainName": "大河",
+    "addition": 110,
+    "moveConsum": 2,
+    "combinationId": 221015
+  },
+  {
+    "armName": "木人",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 221016
+  },
+  {
+    "armName": "百姓",
+    "terrainName": "平原",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 241000
+  },
+  {
+    "armName": "百姓",
+    "terrainName": "山地",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 241001
+  },
+  {
+    "armName": "百姓",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 241003
+  },
+  {
+    "armName": "百姓",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 241004
+  },
+  {
+    "armName": "百姓",
+    "terrainName": "草原",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 241008
+  },
+  {
+    "armName": "百姓",
+    "terrainName": "树林",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 241009
+  },
+  {
+    "armName": "百姓",
+    "terrainName": "荒地",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 241010
+  },
+  {
+    "armName": "百姓",
+    "terrainName": "雪原",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 241011
+  },
+  {
+    "armName": "百姓",
+    "terrainName": "浅滩",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 241013
+  },
+  {
+    "armName": "百姓",
+    "terrainName": "沼泽",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 241014
+  },
+  {
+    "armName": "百姓",
+    "terrainName": "大河",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 241015
+  },
+  {
+    "armName": "百姓",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 241016
+  },
+  {
+    "armName": "粮草队",
+    "terrainName": "平原",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 251000
+  },
+  {
+    "armName": "粮草队",
+    "terrainName": "山地",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 251001
+  },
+  {
+    "armName": "粮草队",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 251003
+  },
+  {
+    "armName": "粮草队",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 251004
+  },
+  {
+    "armName": "粮草队",
+    "terrainName": "草原",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 251008
+  },
+  {
+    "armName": "粮草队",
+    "terrainName": "树林",
+    "addition": 90,
+    "moveConsum": 1,
+    "combinationId": 251009
+  },
+  {
+    "armName": "粮草队",
+    "terrainName": "荒地",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 251010
+  },
+  {
+    "armName": "粮草队",
+    "terrainName": "雪原",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 251011
+  },
+  {
+    "armName": "粮草队",
+    "terrainName": "浅滩",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 251013
+  },
+  {
+    "armName": "粮草队",
+    "terrainName": "沼泽",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 251014
+  },
+  {
+    "armName": "粮草队",
+    "terrainName": "大河",
+    "addition": 90,
+    "moveConsum": 2,
+    "combinationId": 251015
+  },
+  {
+    "armName": "粮草队",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 251016
+  },
+  {
+    "armName": "土偶",
+    "terrainName": "山地",
+    "addition": 110,
+    "moveConsum": 2,
+    "combinationId": 261001
+  },
+  {
+    "armName": "土偶",
+    "terrainName": "鹿岩",
+    "addition": 120,
+    "moveConsum": 1,
+    "combinationId": 261003
+  },
+  {
+    "armName": "土偶",
+    "terrainName": "兵营",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 261004
+  },
+  {
+    "armName": "土偶",
+    "terrainName": "树林",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 261009
+  },
+  {
+    "armName": "土偶",
+    "terrainName": "荒地",
+    "addition": 110,
+    "moveConsum": 1,
+    "combinationId": 261010
+  },
+  {
+    "armName": "土偶",
+    "terrainName": "雪原",
+    "addition": 80,
+    "moveConsum": 1,
+    "combinationId": 261011
+  },
+  {
+    "armName": "土偶",
+    "terrainName": "浅滩",
+    "addition": 120,
+    "moveConsum": 2,
+    "combinationId": 261013
+  },
+  {
+    "armName": "土偶",
+    "terrainName": "沼泽",
+    "addition": 120,
+    "moveConsum": 2,
+    "combinationId": 261014
+  },
+  {
+    "armName": "土偶",
+    "terrainName": "大河",
+    "addition": 80,
+    "moveConsum": 2,
+    "combinationId": 261015
+  },
+  {
+    "armName": "土偶",
+    "terrainName": "民居",
+    "addition": 100,
+    "moveConsum": 1,
+    "combinationId": 261016
+  }
+]

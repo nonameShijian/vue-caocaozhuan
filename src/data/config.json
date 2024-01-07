@@ -1,0 +1,14 @@
+[
+  {
+    "soundEffect": "100",
+    "listernsoundEffect": "true",
+    "music": "100",
+    "listernMusice": "true",
+    "gameSpeed": 0.05000000074505806,
+    "messageSpeed": 1.0,
+    "scale": "1.000000",
+    "reactionSpeed": 1.0,
+    "buttonLayout": "0",
+    "highLightType": "2"
+  }
+]

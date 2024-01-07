@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<qiBing>骑兵</qiBing>
+	<myArmStage>我军阶段</myArmStage>
+	<friendArmStage>友军阶段</friendArmStage>
+	<enemyArmStage>敌军阶段</enemyArmStage>
+	<di>第</di>
+	<wuQi>武器</wuQi>
+	<fanJu>防具</fanJu>
+	<fuZhu>辅助</fuZhu>
+	<huiTui>回退</huiTui>
+	
+	<baoCun>保存</baoCun>
+	<duQu>读取</duQu>
+	<huiHe>回合</huiHe>
+	<chaZhao>查找</chaZhao>
+	<queRenBaoCun>确认保存</queRenBaoCun>
+	<queRenDuChu>确认读取 </queRenDuChu>
+	<xinGuMaoLv>新出茅庐</xinGuMaoLv>
+	<jiuDeZhengZhang>旧的征战</jiuDeZhengZhang>
+	<peiZhi>配置</peiZhi>
+	
+	<shuoMing>说明</shuoMing>
+	<guiYingShangLing>归隐山林</guiYingShangLing>
+	<chuBing>出兵</chuBing>
+	<zhuangBei>装备</zhuangBei>
+	<maiJing>买进</maiJing>
+	<maiChu>卖出</maiChu>
+	<wu>无</wu>
+	<qinTian>晴天</qinTian>
+	<xuanXian>选项</xuanXian>
+
+	<GongJi>攻击</GongJi>
+	<ceLue>策略</ceLue>
+	<daoJu>道具</daoJu>
+	<daiMing>待命</daiMing>
+	<quXiao>取消</quXiao>
+
+	<yingXiangFanWei>影响范围</yingXiangFanWei>
+	<shiYongFanWei>使用范围</shiYongFanWei>
+	<ziliao>资料</ziliao>
+
+	<duYang>毒烟</duYang>
+	<mabi>定身</mabi>
+	<jinzhou>封咒</jinzhou>
+	<hunluan>谎报</hunluan>
+	<baQi>霸气</baQi>
+	<baiHu>大补给</baiHu>
+	<fanbaQi>反霸气</fanbaQi>
+
+	<shiFouTiaoGuo>是否结束本回合</shiFouTiaoGuo>
+	<maiChuShuLiang>卖出数量</maiChuShuLiang>
+	<maiJingShuLiang>买进数量</maiJingShuLiang>
+	
+	<queRenGouMai>购买</queRenGouMai>
+	<queRenMaiChu>卖出</queRenMaiChu>
+	<DuanZao>锻造</DuanZao>
+
+	<woJun>我</woJun>
+	<youJun>友</youJun>
+	<diJun>敌</diJun>
+
+	<fanHuiZhuCaiDan>是否返回主菜单</fanHuiZhuCaiDan>
+
+	<jingShenLi>精神力</jingShenLi>
+	<gonJiLi>攻击力</gonJiLi>
+	<fanYuLi>防御力</fanYuLi>
+
+	<sunShang>损伤</sunShang>
+	<minZhong>命中</minZhong>
+	<minZhong>没有可行动部队</minZhong>
+
+	<xiDeJiNeng>习得技能</xiDeJiNeng>
+	<buKeShiYong>不可使用</buKeShiYong>
+
+	<dengJiTiShengWei>等级提升为</dengJiTiShengWei>
+	<tiShengBingZhongWei>提升兵种为</tiShengBingZhongWei>
+	<huaFei>花费</huaFei>
+	<buKeYiDong>不可移动</buKeYiDong>
+	<keYiDong>可移动</keYiDong>
+	<deDao>得到</deDao>
+
+	<daHe>大河</daHe>
+
+	<wuQiDengJiTiShengWei>武器等级提升为</wuQiDengJiTiShengWei>
+	<fanJuDengJiTiShengWei>防具等级提升为</fanJuDengJiTiShengWei>
+
+	<jinYanGuo>经验果</jinYanGuo>
+	<wuLiGuo>武力果</wuLiGuo>
+	<zhiLiGuo>智力果</zhiLiGuo>
+	<tongShuaiLiGuo>统率力果</tongShuaiLiGuo>
+	<minJieGuo>敏捷果</minJieGuo>
+	<haoYunGuo>好运果</haoYunGuo>
+	<getConsuamblesDiaLog>商人好像对lv3等级的装备特别中意，又特别给了一个</getConsuamblesDiaLog>
+	<yeXing>野心</yeXing>
+</config>
+

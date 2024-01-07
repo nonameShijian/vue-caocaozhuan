@@ -1,0 +1,74 @@
+[
+  {
+    "attackArmName": "步兵",
+    "defendArmName": "骑兵",
+    "factor": "0.6",
+    "ID": 1
+  },
+  {
+    "attackArmName": "步兵",
+    "defendArmName": "弓兵",
+    "factor": "1.5",
+    "ID": 2
+  },
+  {
+    "attackArmName": "步兵",
+    "defendArmName": "炮兵",
+    "factor": "1.5",
+    "ID": 3
+  },
+  {
+    "attackArmName": "弓兵",
+    "defendArmName": "骑兵",
+    "factor": "1.5",
+    "ID": 4
+  },
+  {
+    "attackArmName": "弓兵",
+    "defendArmName": "驯熊师",
+    "factor": "1.5",
+    "ID": 5
+  },
+  {
+    "attackArmName": "弓兵",
+    "defendArmName": "驯虎师",
+    "factor": "1.5",
+    "ID": 6
+  },
+  {
+    "attackArmName": "弓骑兵",
+    "defendArmName": "骑兵",
+    "factor": "1.5",
+    "ID": 7
+  },
+  {
+    "attackArmName": "弓骑兵",
+    "defendArmName": "驯熊师",
+    "factor": "1.5",
+    "ID": 8
+  },
+  {
+    "attackArmName": "弓骑兵",
+    "defendArmName": "驯虎师",
+    "factor": "1.5",
+    "ID": 9
+  },
+  {
+    "attackArmName": "炮兵",
+    "defendArmName": "骑兵",
+    "factor": "1.5",
+    "ID": 10
+  },
+  {
+    "attackArmName": "炮兵",
+    "defendArmName": "驯熊师",
+    "factor": "1.5",
+    "ID": 11
+  },
+  {
+    "attackArmName": "炮兵",
+    "defendArmName": "驯虎师",
+    "factor": "1.5",
+    "ID": 12
+  }
+]

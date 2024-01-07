@@ -1,0 +1,1208 @@
+[
+  {
+    "IDOfAI": 1,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "太平清领道"
+  },
+  {
+    "IDOfAI": 27,
+    "weaponName": "古锭刀",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 28,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铜制马铠"
+  },
+  {
+    "IDOfAI": 33,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "风神盾"
+  },
+  {
+    "IDOfAI": 36,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "布手套"
+  },
+  {
+    "IDOfAI": 60,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "风神盾"
+  },
+  {
+    "IDOfAI": 63,
+    "weaponName": "方天画戟",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 95,
+    "weaponName": "方天画戟",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 101,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "皮盾"
+  },
+  {
+    "IDOfAI": 140,
+    "weaponName": null,
+    "armorName": "白银铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 141,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 171,
+    "weaponName": "雌雄双剑",
+    "armorName": null,
+    "assisName": "的卢"
+  },
+  {
+    "IDOfAI": 172,
+    "weaponName": "青龙偃月刀",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 173,
+    "weaponName": "蛇矛",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 174,
+    "weaponName": null,
+    "armorName": "白银铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 175,
+    "weaponName": "方天画戟",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 177,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "头巾"
+  },
+  {
+    "IDOfAI": 210,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "没羽箭"
+  },
+  {
+    "IDOfAI": 216,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "头巾"
+  },
+  {
+    "IDOfAI": 233,
+    "weaponName": "方天画戟",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 244,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "没羽箭"
+  },
+  {
+    "IDOfAI": 250,
+    "weaponName": "方天画戟",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 251,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "头巾"
+  },
+  {
+    "IDOfAI": 272,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "没羽箭"
+  },
+  {
+    "IDOfAI": 312,
+    "weaponName": null,
+    "armorName": "飞龙道袍",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 346,
+    "weaponName": "方天画戟",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 352,
+    "weaponName": "雌雄双剑",
+    "armorName": null,
+    "assisName": "的卢"
+  },
+  {
+    "IDOfAI": 353,
+    "weaponName": "青龙偃月刀",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 354,
+    "weaponName": "蛇矛",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 397,
+    "weaponName": "方天画戟",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 398,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "皮制马铠"
+  },
+  {
+    "IDOfAI": 406,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铜盾"
+  },
+  {
+    "IDOfAI": 416,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "头巾"
+  },
+  {
+    "IDOfAI": 417,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "没羽箭"
+  },
+  {
+    "IDOfAI": 421,
+    "weaponName": "雌雄双剑",
+    "armorName": null,
+    "assisName": "的卢"
+  },
+  {
+    "IDOfAI": 422,
+    "weaponName": "青龙偃月刀",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 423,
+    "weaponName": "蛇矛",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 427,
+    "weaponName": "雌雄双剑",
+    "armorName": null,
+    "assisName": "的卢"
+  },
+  {
+    "IDOfAI": 428,
+    "weaponName": "青龙偃月刀",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 429,
+    "weaponName": "蛇矛",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 431,
+    "weaponName": "方天画戟",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 432,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "头巾"
+  },
+  {
+    "IDOfAI": 440,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铜盾"
+  },
+  {
+    "IDOfAI": 443,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "皮制马铠"
+  },
+  {
+    "IDOfAI": 444,
+    "weaponName": "青龙偃月刀",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 481,
+    "weaponName": "雌雄双剑",
+    "armorName": null,
+    "assisName": "的卢"
+  },
+  {
+    "IDOfAI": 482,
+    "weaponName": "蛇矛",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 489,
+    "weaponName": "青龙偃月刀",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 490,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "风神盾"
+  },
+  {
+    "IDOfAI": 506,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "豆袋"
+  },
+  {
+    "IDOfAI": 514,
+    "weaponName": "青龙偃月刀",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 515,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "风神盾"
+  },
+  {
+    "IDOfAI": 516,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "白银盾"
+  },
+  {
+    "IDOfAI": 523,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "纶巾"
+  },
+  {
+    "IDOfAI": 527,
+    "weaponName": "五火神焰扇",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 542,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "风神盾"
+  },
+  {
+    "IDOfAI": 543,
+    "weaponName": "七星剑",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 548,
+    "weaponName": null,
+    "armorName": "黄金铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 556,
+    "weaponName": "五火神焰扇",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 557,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "纶巾"
+  },
+  {
+    "IDOfAI": 566,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "皮手套"
+  },
+  {
+    "IDOfAI": 570,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铜盔"
+  },
+  {
+    "IDOfAI": 584,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "风神盾"
+  },
+  {
+    "IDOfAI": 596,
+    "weaponName": null,
+    "armorName": "黄金铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 608,
+    "weaponName": "雌雄双剑",
+    "armorName": null,
+    "assisName": "的卢"
+  },
+  {
+    "IDOfAI": 609,
+    "weaponName": null,
+    "armorName": "白银铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 615,
+    "weaponName": "青龙偃月刀",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 618,
+    "weaponName": "蛇矛",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 635,
+    "weaponName": null,
+    "armorName": "黄金铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 636,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "纶巾"
+  },
+  {
+    "IDOfAI": 678,
+    "weaponName": "七星剑",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 687,
+    "weaponName": "五火神焰扇",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 705,
+    "weaponName": "五火神焰扇",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 748,
+    "weaponName": null,
+    "armorName": "黄金铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 757,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "皮手套"
+  },
+  {
+    "IDOfAI": 763,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "纶巾"
+  },
+  {
+    "IDOfAI": 823,
+    "weaponName": null,
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 826,
+    "weaponName": "雌雄双剑",
+    "armorName": null,
+    "assisName": "的卢"
+  },
+  {
+    "IDOfAI": 827,
+    "weaponName": null,
+    "armorName": "白银铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 829,
+    "weaponName": "青龙偃月刀",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 833,
+    "weaponName": "蛇矛",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 848,
+    "weaponName": "雌雄双剑",
+    "armorName": null,
+    "assisName": "的卢"
+  },
+  {
+    "IDOfAI": 849,
+    "weaponName": "蛇矛",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 855,
+    "weaponName": null,
+    "armorName": "白银铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 867,
+    "weaponName": "青龙偃月刀",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 874,
+    "weaponName": "白羽扇",
+    "armorName": null,
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 900,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "青囊书"
+  },
+  {
+    "IDOfAI": 909,
+    "weaponName": null,
+    "armorName": "镜铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 912,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "白银盾"
+  },
+  {
+    "IDOfAI": 914,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铁盔"
+  },
+  {
+    "IDOfAI": 922,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "太平要术"
+  },
+  {
+    "IDOfAI": 923,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铜制马铠"
+  },
+  {
+    "IDOfAI": 924,
+    "weaponName": null,
+    "armorName": "连环铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 944,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "青囊书"
+  },
+  {
+    "IDOfAI": 953,
+    "weaponName": null,
+    "armorName": "镜铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 956,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "白银盾"
+  },
+  {
+    "IDOfAI": 958,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铁盔"
+  },
+  {
+    "IDOfAI": 966,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "太平要术"
+  },
+  {
+    "IDOfAI": 967,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铜制马铠"
+  },
+  {
+    "IDOfAI": 968,
+    "weaponName": null,
+    "armorName": "连环铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 983,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "白银盾"
+  },
+  {
+    "IDOfAI": 988,
+    "weaponName": null,
+    "armorName": "白银铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 995,
+    "weaponName": "蛇矛",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1002,
+    "weaponName": "青龙偃月刀",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 1009,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铜制马铠"
+  },
+  {
+    "IDOfAI": 1011,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "孙子兵法"
+  },
+  {
+    "IDOfAI": 1016,
+    "weaponName": null,
+    "armorName": "镜铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1031,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铜盾"
+  },
+  {
+    "IDOfAI": 1033,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铁盔"
+  },
+  {
+    "IDOfAI": 1058,
+    "weaponName": null,
+    "armorName": "漆黑道服",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1088,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铁盔"
+  },
+  {
+    "IDOfAI": 1089,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "吕布之弓"
+  },
+  {
+    "IDOfAI": 1103,
+    "weaponName": null,
+    "armorName": "飞龙道袍",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1111,
+    "weaponName": null,
+    "armorName": "连环铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1112,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "白银盾"
+  },
+  {
+    "IDOfAI": 1122,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铁盔"
+  },
+  {
+    "IDOfAI": 1128,
+    "weaponName": null,
+    "armorName": "连环铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1135,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "白银盾"
+  },
+  {
+    "IDOfAI": 1143,
+    "weaponName": null,
+    "armorName": "飞龙道袍",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1184,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铜制马铠"
+  },
+  {
+    "IDOfAI": 1189,
+    "weaponName": null,
+    "armorName": "白银铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1201,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "皮手套"
+  },
+  {
+    "IDOfAI": 1211,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铜盔"
+  },
+  {
+    "IDOfAI": 1216,
+    "weaponName": "蛇矛",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1224,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 1229,
+    "weaponName": "雌雄双剑",
+    "armorName": null,
+    "assisName": "的卢"
+  },
+  {
+    "IDOfAI": 1230,
+    "weaponName": "蛇矛",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1249,
+    "weaponName": null,
+    "armorName": "白银铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1268,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铜盔"
+  },
+  {
+    "IDOfAI": 1285,
+    "weaponName": "雌雄双剑",
+    "armorName": null,
+    "assisName": "的卢"
+  },
+  {
+    "IDOfAI": 1286,
+    "weaponName": "蛇矛",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1291,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 1292,
+    "weaponName": null,
+    "armorName": "白银铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1299,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铁盔"
+  },
+  {
+    "IDOfAI": 1328,
+    "weaponName": "青龙偃月刀",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 1340,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 1341,
+    "weaponName": null,
+    "armorName": "白银铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1388,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 1389,
+    "weaponName": null,
+    "armorName": "白银铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1455,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 1512,
+    "weaponName": null,
+    "armorName": "白银铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1534,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 1580,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 1582,
+    "weaponName": "圣者宝剑",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1601,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "白银盾"
+  },
+  {
+    "IDOfAI": 1605,
+    "weaponName": null,
+    "armorName": "连环铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1608,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铁盔"
+  },
+  {
+    "IDOfAI": 1628,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 1632,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铁盔"
+  },
+  {
+    "IDOfAI": 1634,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "白银盾"
+  },
+  {
+    "IDOfAI": 1636,
+    "weaponName": null,
+    "armorName": "连环铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1637,
+    "weaponName": "圣者宝剑",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1673,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 1675,
+    "weaponName": "圣者宝剑",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1683,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "白银盾"
+  },
+  {
+    "IDOfAI": 1684,
+    "weaponName": null,
+    "armorName": "连环铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1692,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铁盔"
+  },
+  {
+    "IDOfAI": 1764,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铜制马铠"
+  },
+  {
+    "IDOfAI": 1769,
+    "weaponName": null,
+    "armorName": "白银铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1781,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "皮手套"
+  },
+  {
+    "IDOfAI": 1791,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铜盔"
+  },
+  {
+    "IDOfAI": 1796,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 1797,
+    "weaponName": "青龙偃月刀",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 1807,
+    "weaponName": "蛇矛",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1813,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铁盔"
+  },
+  {
+    "IDOfAI": 1817,
+    "weaponName": "青龙偃月刀",
+    "armorName": null,
+    "assisName": "赤兔马"
+  },
+  {
+    "IDOfAI": 1828,
+    "weaponName": "圣者宝剑",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1836,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铁盔"
+  },
+  {
+    "IDOfAI": 1844,
+    "weaponName": null,
+    "armorName": "连环铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1853,
+    "weaponName": "圣者宝剑",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1855,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "白银盾"
+  },
+  {
+    "IDOfAI": 1857,
+    "weaponName": null,
+    "armorName": "连环铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1865,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铁盔"
+  },
+  {
+    "IDOfAI": 1873,
+    "weaponName": null,
+    "armorName": "飞龙道袍",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1883,
+    "weaponName": "圣者宝剑",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1902,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铁盔"
+  },
+  {
+    "IDOfAI": 1908,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "白银盾"
+  },
+  {
+    "IDOfAI": 1909,
+    "weaponName": null,
+    "armorName": "连环铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1937,
+    "weaponName": null,
+    "armorName": "飞龙道袍",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1965,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "白银盾"
+  },
+  {
+    "IDOfAI": 1966,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铁盔"
+  },
+  {
+    "IDOfAI": 1967,
+    "weaponName": null,
+    "armorName": "连环铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1969,
+    "weaponName": "圣者宝剑",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 1975,
+    "weaponName": null,
+    "armorName": "飞龙道袍",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 2013,
+    "weaponName": "圣者宝剑",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 2015,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "铁盔"
+  },
+  {
+    "IDOfAI": 2021,
+    "weaponName": null,
+    "armorName": "飞龙道袍",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 2033,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "白银盾"
+  },
+  {
+    "IDOfAI": 2086,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 2087,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 2088,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 2089,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 2106,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 2220,
+    "weaponName": null,
+    "armorName": "白银铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 2269,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 2289,
+    "weaponName": null,
+    "armorName": "白银铠",
+    "assisName": null
+  },
+  {
+    "IDOfAI": 2347,
+    "weaponName": "白羽扇",
+    "armorName": "鹤氅",
+    "assisName": "诸葛巾"
+  },
+  {
+    "IDOfAI": 2348,
+    "weaponName": "雌雄双剑",
+    "armorName": null,
+    "assisName": "的卢"
+  },
+  {
+    "IDOfAI": 2349,
+    "weaponName": "蛇矛",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 2352,
+    "weaponName": "古锭刀",
+    "armorName": null,
+    "assisName": null
+  },
+  {
+    "IDOfAI": 2353,
+    "weaponName": null,
+    "armorName": null,
+    "assisName": "太平要术"
+  }
+]

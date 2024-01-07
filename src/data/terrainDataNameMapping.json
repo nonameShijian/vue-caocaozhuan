@@ -1,0 +1,118 @@
+[
+  {
+    "terrainDataName": "平原",
+    "mappingName": "平原"
+  },
+  {
+    "terrainDataName": "山地",
+    "mappingName": "山地"
+  },
+  {
+    "terrainDataName": "石头",
+    "mappingName": "石头"
+  },
+  {
+    "terrainDataName": "鹿岩",
+    "mappingName": "鹿岩"
+  },
+  {
+    "terrainDataName": "兵营",
+    "mappingName": "兵营"
+  },
+  {
+    "terrainDataName": "城内",
+    "mappingName": "城内"
+  },
+  {
+    "terrainDataName": "石头",
+    "mappingName": "岩山"
+  },
+  {
+    "terrainDataName": "石头",
+    "mappingName": "城墙"
+  },
+  {
+    "terrainDataName": "石头",
+    "mappingName": "栅栏"
+  },
+  {
+    "terrainDataName": "草原",
+    "mappingName": "草原"
+  },
+  {
+    "terrainDataName": "树林",
+    "mappingName": "树林"
+  },
+  {
+    "terrainDataName": "荒地",
+    "mappingName": "荒地"
+  },
+  {
+    "terrainDataName": "雪原",
+    "mappingName": "雪原"
+  },
+  {
+    "terrainDataName": "桥梁",
+    "mappingName": "桥梁"
+  },
+  {
+    "terrainDataName": "浅滩",
+    "mappingName": "浅滩"
+  },
+  {
+    "terrainDataName": "沼泽",
+    "mappingName": "沼泽"
+  },
+  {
+    "terrainDataName": "大河",
+    "mappingName": "大河"
+  },
+  {
+    "terrainDataName": "民居",
+    "mappingName": "民居"
+  },
+  {
+    "terrainDataName": "仓库",
+    "mappingName": "仓库"
+  },
+  {
+    "terrainDataName": "石头",
+    "mappingName": "城门"
+  },
+  {
+    "terrainDataName": "石头",
+    "mappingName": "小河"
+  },
+  {
+    "terrainDataName": "鹿岩",
+    "mappingName": "城池"
+  },
+  {
+    "terrainDataName": "兵营",
+    "mappingName": "村庄"
+  },
+  {
+    "terrainDataName": "石头",
+    "mappingName": "护城河"
+  },
+  {
+    "terrainDataName": "石头",
+    "mappingName": "池塘"
+  },
+  {
+    "terrainDataName": "鹿岩",
+    "mappingName": "关隘"
+  },
+  {
+    "terrainDataName": "石头",
+    "mappingName": "火船"
+  },
+  {
+    "terrainDataName": "石头",
+    "mappingName": "船"
+  },
+  {
+    "terrainDataName": "石头",
+    "mappingName": "祭坛"
+  }
+]

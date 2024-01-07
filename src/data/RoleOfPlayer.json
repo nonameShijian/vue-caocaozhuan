@@ -1,0 +1,18 @@
+[
+  {
+    "ID": "99_3",
+    "playerName": "100_newGame",
+    "roleName": "曹操",
+    "experience": 0,
+    "grade": 3,
+    "additionForce": 0,
+    "additionAgility": 0,
+    "additionBrain": 0,
+    "additionCommand": 0,
+    "additionLuck": 0,
+    "additionHp": 0,
+    "additionMp": 0,
+    "armGrade": 1,
+    "arrange": null
+  }
+]

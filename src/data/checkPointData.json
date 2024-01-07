@@ -1,0 +1,522 @@
+[
+  {
+    "checkPointName": "颖川之战",
+    "round": 20,
+    "ID": 0,
+    "condition": "胜利条件@一、击毙张宝和张梁。@@失败条件@一、曹操死亡。@二、回合数超过20。",
+    "conditionVar": "1003,-1000,-999",
+    "theRoleLimit": "3/1,1"
+  },
+  {
+    "checkPointName": "汜水关之战",
+    "round": 20,
+    "ID": 1,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过20。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3,4/4,7"
+  },
+  {
+    "checkPointName": "虎牢关之战",
+    "round": 20,
+    "ID": 2,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过20。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3,4/4,7"
+  },
+  {
+    "checkPointName": "董卓追击战",
+    "round": 20,
+    "ID": 3,
+    "condition": "胜利条件@一、击退李儒。@@失败条件@一、曹操死亡。@二、回合数超过20。",
+    "conditionVar": "1003,-997",
+    "theRoleLimit": "3,4/4,7"
+  },
+  {
+    "checkPointName": "青州黄巾讨伐战",
+    "round": 20,
+    "ID": 4,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过20。",
+    "conditionVar": "1003",
+    "theRoleLimit": "17,21,14,3/6,10"
+  },
+  {
+    "checkPointName": "徐州复仇战",
+    "round": 20,
+    "ID": 5,
+    "condition": "胜利条件@一、击退陶谦。@@失败条件@一、曹操死亡。@二、回合数超过20。",
+    "conditionVar": "1003,-1000",
+    "theRoleLimit": "3,18,19/6,10"
+  },
+  {
+    "checkPointName": "濮阳之战",
+    "round": 20,
+    "ID": 6,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过20。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3,14,26/6,10"
+  },
+  {
+    "checkPointName": "濮阳之战（二）",
+    "round": 20,
+    "ID": 7,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过20。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3,14,16/7,11"
+  },
+  {
+    "checkPointName": "濮阳之战（三）",
+    "round": 20,
+    "ID": 8,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过20。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3,14,13,4/10,15"
+  },
+  {
+    "checkPointName": "献帝救出战",
+    "round": 20,
+    "ID": 9,
+    "condition": "胜利条件@一、献帝到达东北端。@二、歼灭所有敌军。@一、献帝被敌人抓住。@二、曹操死亡。@三、回合数超过20。",
+    "conditionVar": "1003,2000/16,0-17,0-18,0-19,0",
+    "theRoleLimit": "3/10,15"
+  },
+  {
+    "checkPointName": "张绣讨伐战",
+    "round": 20,
+    "ID": 10,
+    "condition": "胜利条件@一、歼灭所有敌军。@二、曹操到达西端。@一、曹操死亡。@二、回合数超过20。",
+    "conditionVar": "1003/0,7-0,8-0,9-0,10-1,7-1,8-1,9-1,10",
+    "theRoleLimit": "3,14,11/6,9"
+  },
+  {
+    "checkPointName": "袁术讨伐战",
+    "round": 20,
+    "ID": 11,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过20。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3,19/8,12"
+  },
+  {
+    "checkPointName": "张绣讨伐战  贰",
+    "round": 20,
+    "ID": 12,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过20。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3/5,8"
+  },
+  {
+    "checkPointName": "徐州救援战",
+    "round": 20,
+    "ID": 13,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过20。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3,4/7,11"
+  },
+  {
+    "checkPointName": "吕布包围战",
+    "round": 20,
+    "ID": 14,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过20。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3/10,15"
+  },
+  {
+    "checkPointName": "徐州入侵战",
+    "round": 25,
+    "ID": 15,
+    "condition": "胜利条件@一、占领下邳。@@失败条件@一、曹操死亡。@二、回合数超过25。",
+    "conditionVar": "1003/29,18",
+    "theRoleLimit": "3,6,15,19,20/6,10"
+  },
+  {
+    "checkPointName": "白马之战",
+    "round": 25,
+    "ID": 16,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过25。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3/6,10"
+  },
+  {
+    "checkPointName": "延津之战",
+    "round": 25,
+    "ID": 17,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过25。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3,6/6,10"
+  },
+  {
+    "checkPointName": "官渡之战",
+    "round": 25,
+    "ID": 18,
+    "condition": "胜利条件@一、击退袁绍。@@失败条件@一、曹操死亡。@二、曹操的主营被占领。@三、回合数超过25。",
+    "conditionVar": "1003,-1000/15,30",
+    "theRoleLimit": "3,13/9,14"
+  },
+  {
+    "checkPointName": "仓亭之战",
+    "round": 25,
+    "ID": 19,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过25。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3,18,13,24/8,13"
+  },
+  {
+    "checkPointName": "穰山之战",
+    "round": 25,
+    "ID": 20,
+    "condition": "胜利条件@一、击退刘备。@@失败条件@一、曹操死亡。@二、回合数超过25。",
+    "conditionVar": "1003,-1000",
+    "theRoleLimit": "3,6,24,23/10,15"
+  },
+  {
+    "checkPointName": "黎阳之战",
+    "round": 25,
+    "ID": 21,
+    "condition": "胜利条件@一、击退袁谭和袁熙。@@失败条件@一、曹操死亡。@二、回合数超过25。",
+    "conditionVar": "1003,-1000,-985",
+    "theRoleLimit": "3,19/7,11"
+  },
+  {
+    "checkPointName": "邺城之战",
+    "round": 25,
+    "ID": 22,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过25。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3,19,25/7,11"
+  },
+  {
+    "checkPointName": "南皮攻略战",
+    "round": 25,
+    "ID": 23,
+    "condition": "胜利条件@一、击退袁谭。@@失败条件@一、曹操死亡。@二、回合数超过25。",
+    "conditionVar": "1003,-1000",
+    "theRoleLimit": "3,19,25/8,13"
+  },
+  {
+    "checkPointName": "柳城平定战",
+    "round": 25,
+    "ID": 24,
+    "condition": null,
+    "conditionVar": null,
+    "theRoleLimit": "3,19,6/4,7"
+  },
+  {
+    "checkPointName": "博望坡之战",
+    "round": 25,
+    "ID": 25,
+    "condition": "胜利条件@一、夏侯惇到达北端。@二、击退诸葛亮。@@失败条件@\r\n一、夏侯惇死亡。@二、回合数超过25。",
+    "conditionVar": "1004,-1000/(8,0,11,1)",
+    "theRoleLimit": "4,26,10,&3,&19/6,9"
+  },
+  {
+    "checkPointName": "长阪坡之战",
+    "round": 25,
+    "ID": 26,
+    "condition": "胜利条件@一、击退刘备。@@失败条件@一、曹操死亡。@二、回合数超过25。",
+    "conditionVar": "1003,-1000",
+    "theRoleLimit": "3,4,24,&19/6,10"
+  },
+  {
+    "checkPointName": "幻  赤壁之战",
+    "round": 25,
+    "ID": 27,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过25。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3,6,18,19/10,15"
+  },
+  {
+    "checkPointName": "赤壁之战",
+    "round": 25,
+    "ID": 28,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过25。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3,6,18/10,15"
+  },
+  {
+    "checkPointName": "赤壁突围战",
+    "round": 25,
+    "ID": 29,
+    "condition": "胜利条件@一、曹操到达西北端。@@失败条件@一、曹操死亡。@二、回合数超过25。",
+    "conditionVar": "1003/(0,0,5,5)",
+    "theRoleLimit": "3,6,18,13,27/5.5"
+  },
+  {
+    "checkPointName": "合淝之战",
+    "round": 25,
+    "ID": 30,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、全军撤退。@二、回合数超过25。",
+    "conditionVar": "",
+    "theRoleLimit": "6,9,10,&3/4,7"
+  },
+  {
+    "checkPointName": "马超迎击战",
+    "round": 25,
+    "ID": 31,
+    "condition": "胜利条件@一、击退韩遂。@@失败条件@一、曹操死亡。@二、回合数超过25。",
+    "conditionVar": "1003,-1000",
+    "theRoleLimit": "3,11,27,20,13,&6,&9,&10/8,13"
+  },
+  {
+    "checkPointName": "张鲁讨伐战",
+    "round": 25,
+    "ID": 32,
+    "condition": "胜利条件@一、俘获张鲁。@@失败条件@一、曹操死亡。@二、回合数超过25。",
+    "conditionVar": "1003,-1000",
+    "theRoleLimit": "3,13,&6,&9,&10/8,13"
+  },
+  {
+    "checkPointName": "逍遥津之战1",
+    "round": 25,
+    "ID": 33,
+    "condition": "胜利条件@一、击退孙权。@@失败条件@一、全军撤退。@二、回合数超过25。",
+    "conditionVar": "-1000",
+    "theRoleLimit": "6,9,10,&3/6,10"
+  },
+  {
+    "checkPointName": "濡须口之战1",
+    "round": 25,
+    "ID": 34,
+    "condition": "胜利条件@一、击退孙权。@@失败条件@一、曹操死亡。@二、敌军进入营寨。@三、回合数超过25。",
+    "conditionVar": "1003,-1000/(12,8,12,8)",
+    "theRoleLimit": "3,28,6,9,10,12/10,15"
+  },
+  {
+    "checkPointName": "定军山之战",
+    "round": null,
+    "ID": 35,
+    "condition": "胜利条件@一、歼灭所有敌军。@二、至少坚持20回合。@@失败条件@一、我方部队全灭。",
+    "conditionVar": null,
+    "theRoleLimit": "23,24,11,&3/6,10"
+  },
+  {
+    "checkPointName": "汉水之战",
+    "round": 30,
+    "ID": 36,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过30。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3,13/10,15"
+  },
+  {
+    "checkPointName": "斜谷之战",
+    "round": 30,
+    "ID": 37,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过30。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3/5,8"
+  },
+  {
+    "checkPointName": "樊城救援战",
+    "round": 20,
+    "ID": 38,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、樊城失陷。@三、回合数超过20。",
+    "conditionVar": "1003/(17,13,17,13)",
+    "theRoleLimit": "3,5,22,12,26/10,15"
+  },
+  {
+    "checkPointName": "阳平关之战",
+    "round": 30,
+    "ID": 39,
+    "condition": "胜利条件@一、曹操攻破阳平关。@@失败条件@一、曹操死亡。@二、樊城失陷。@三、回合数超过30。",
+    "conditionVar": "1003/(22,11,23,15)",
+    "theRoleLimit": "3,28,13/10,15"
+  },
+  {
+    "checkPointName": "剑阁之战",
+    "round": null,
+    "ID": 40,
+    "condition": null,
+    "conditionVar": null,
+    "theRoleLimit": "3,28/10,15"
+  },
+  {
+    "checkPointName": "成都入侵战",
+    "round": null,
+    "ID": 41,
+    "condition": null,
+    "conditionVar": null,
+    "theRoleLimit": ""
+  },
+  {
+    "checkPointName": "白帝城之战",
+    "round": 30,
+    "ID": 42,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过30。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3,28/6,10"
+  },
+  {
+    "checkPointName": "赤壁之战  贰",
+    "round": 30,
+    "ID": 43,
+    "condition": "胜利条件@一、打败诸葛亮。@@失败条件@一、曹操死亡。@二、回合数超过30。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3/10,15"
+  },
+  {
+    "checkPointName": "濡须口之战  贰",
+    "round": null,
+    "ID": 44,
+    "condition": "",
+    "conditionVar": "",
+    "theRoleLimit": "3/8,12"
+  },
+  {
+    "checkPointName": "建业入侵战",
+    "round": 40,
+    "ID": 45,
+    "condition": "胜利条件@一、打败诸葛亮和孙权。@@失败条件@一、曹操死亡。@二、回合数超过40。",
+    "conditionVar": "1003,-1000,-999",
+    "theRoleLimit": "3/10,15"
+  },
+  {
+    "checkPointName": "定军山之战2",
+    "round": 25,
+    "ID": 46,
+    "condition": "胜利条件@一、歼灭所有敌军。@二、至少坚持25回合。@@失败条件@一、我方部队全灭。",
+    "conditionVar": null,
+    "theRoleLimit": "23,24,11,12,&3/6,10"
+  },
+  {
+    "checkPointName": "麦城救援战",
+    "round": 30,
+    "ID": 47,
+    "condition": "",
+    "conditionVar": "",
+    "theRoleLimit": "3/6,10"
+  },
+  {
+    "checkPointName": "江陵之战",
+    "round": 30,
+    "ID": 48,
+    "condition": "胜利条件@一、击退孙权。@@失败条件@一、曹操死亡@二、回合数超过30。",
+    "conditionVar": "1003,-1000",
+    "theRoleLimit": "3,8/9,12"
+  },
+  {
+    "checkPointName": "赤壁之战  贰2",
+    "round": 30,
+    "ID": 49,
+    "condition": "胜利条件@一、击退孙权。@@失败条件@一、曹操死亡@二、回合数超过30。",
+    "conditionVar": "1003,-1000",
+    "theRoleLimit": "3,28/10,15"
+  },
+  {
+    "checkPointName": "濡须口之战2",
+    "round": 30,
+    "ID": 50,
+    "condition": "胜利条件@一、击退孙权。@@失败条件@一、曹操死亡@二、回合数超过30。",
+    "conditionVar": "1003,-1000",
+    "theRoleLimit": "3,28/10,15"
+  },
+  {
+    "checkPointName": "建业入侵战2",
+    "round": 40,
+    "ID": 51,
+    "condition": "胜利条件@一、击退孙权。@@失败条件@一、曹操死亡@二、回合数超过40。",
+    "conditionVar": null,
+    "theRoleLimit": "3/10,15"
+  },
+  {
+    "checkPointName": "鱼腹浦之战",
+    "round": 30,
+    "ID": 52,
+    "condition": "胜利条件@一、曹操突破鱼腹浦。@@失败条件@一、曹操死亡。@二、樊城失陷。@三、回合数超过30。",
+    "conditionVar": "1003/(12,0,17,2)",
+    "theRoleLimit": "3/8,12"
+  },
+  {
+    "checkPointName": "白帝城之战2",
+    "round": 30,
+    "ID": 53,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过30。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3/6,10"
+  },
+  {
+    "checkPointName": "剑阁之战2",
+    "round": 30,
+    "ID": 54,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过30。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3/10,15"
+  },
+  {
+    "checkPointName": "阳平关之战2",
+    "round": 30,
+    "ID": 55,
+    "condition": "胜利条件@一、歼灭所有敌军。@@失败条件@一、曹操死亡。@二、回合数超过30。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3,&15,&20/10,15"
+  },
+  {
+    "checkPointName": "五丈原之战",
+    "round": 40,
+    "ID": 56,
+    "condition": "胜利条件@一、击退姜维。@@失败条件@一、曹操死亡@二、回合数超过40。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3/10,15"
+  },
+  {
+    "checkPointName": "五丈原之战  贰",
+    "round": 40,
+    "ID": 57,
+    "condition": "胜利条件@一、杀死诸葛亮。@@失败条件@一、曹操死亡@二、回合数超过40。",
+    "conditionVar": "1003",
+    "theRoleLimit": "3/10,15"
+  },
+  {
+    "checkPointName": "颍川之战",
+    "round": 15,
+    "ID": 1000,
+    "condition": "胜利条件@1:击退张梁。@@失败条件@1:曹操死亡@2:回合数超过15@@PS:击杀敌军越多奖励越多，友军存活越多奖励也越多。",
+    "conditionVar": "-1000,1003",
+    "theRoleLimit": "3,66,65,67/4,4"
+  },
+  {
+    "checkPointName": "颍川突围战",
+    "round": 20,
+    "ID": 1001,
+    "condition": "胜利条件@1:歼灭全军。@2:皇甫嵩和曹操到达指定点@@失败条件@1:皇甫嵩或曹操死亡@2:回合数超过20@@PS:杀敌数越多奖励越多哦...",
+    "conditionVar": "1003,1066/22,0-23,0-22,1-23,1-22,2-23,2-22,3-23,3",
+    "theRoleLimit": "3,66/3,4"
+  },
+  {
+    "checkPointName": "虎牢关防守战",
+    "round": 20,
+    "ID": 1002,
+    "condition": "胜利条件@1:歼灭全军。@2:防守超过20回合@@失败条件@1:皇甫嵩或曹操死亡@@PS:杀敌数越多奖励越多哦...",
+    "conditionVar": "1003,1066",
+    "theRoleLimit": "3,66/5,7"
+  },
+  {
+    "checkPointName": "伊阙关突击战",
+    "round": 20,
+    "ID": 1003,
+    "condition": "胜利条件@1:歼灭全军。@@失败条件@1:曹操死亡@2:回合数超过20",
+    "conditionVar": "1003",
+    "theRoleLimit": "3/6,9"
+  },
+  {
+    "checkPointName": "洛阳救援战",
+    "round": 30,
+    "ID": 1005,
+    "condition": "胜利条件@1:歼灭全军。@2:曹操和刘备到达指定点@@失败条件@1:曹操死亡或刘备死亡@2:回合数超过15@3:友军全部死亡",
+    "conditionVar": "1003,1075/18,23-19,23-20,23-21,23",
+    "theRoleLimit": "3,75/9,12"
+  },
+  {
+    "checkPointName": "洛阳突围战",
+    "round": 30,
+    "ID": 1006,
+    "condition": "胜利条件@1:曹操到达指定点@@失败条件@1:曹操死亡@2:回合数超过20",
+    "conditionVar": "1003/18,0-19,0-20,0-21,0",
+    "theRoleLimit": "3/9,12"
+  },
+  {
+    "checkPointName": "乱三国 初章 魔王降临",
+    "round": 40,
+    "ID": 1007,
+    "condition": "胜利条件@1:击杀张角。@@失败条件@1:曹操死亡@2:回合数超过40",
+    "conditionVar": "",
+    "theRoleLimit": null
+  }
+]
