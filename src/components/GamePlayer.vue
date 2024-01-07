@@ -5,6 +5,7 @@
 <script setup lang="ts">
 import { Ref, onMounted, reactive, ref, watch, defineExpose, nextTick } from 'vue';
 import { Player } from '../element/player.ts';
+import { Skill } from '../element/skill';
 
 export type attackType = 'top' | 'right' | 'bottom' | 'left';
 
@@ -13,6 +14,7 @@ export type walkType = 'top' | 'right' | 'bottom' | 'left' |
 	'topBlock' | 'rightBlock' | 'bottomBlock' | 'leftBlock' |
 	'dying' | 'damage' | 'gain';
 
+// 刚出场的角色其实是只有立定和行走两种的
 export type playerProp = {
 	/**
 	 * 角色id
@@ -57,7 +59,30 @@ export type playerProp = {
 	 * 角色状态类别
 	 */
 	statusType: walkType,
-}
+} | {
+	/**
+	 * 角色id
+	 */
+	id: number,
+	/**
+	 * 角色类别
+	 */
+	playerType: 'arm' | 'role',
+	/**
+	 * 动作类别
+	 */
+	actionType: 'skillEffect',
+	/**
+	 * 第几张图片
+	 * 
+	 * 其实是兵种升级的情况
+	 */
+	index: number,
+	/**
+	 * 角色状态类别
+	 */
+	statusType: Skill,
+};
 
 const props = defineProps<playerProp>();
 
@@ -102,26 +127,41 @@ const playerDebuffBackgroundPosition = ref([0, 0]);
 /**
  * 是否显示角色debuff的背景(中毒，麻痹，禁咒，混乱)
  */
-const showplayerDebuffBackground = ref(false);
+const showPlayerDebuffBackground = ref(false);
+
+/**
+ * 角色正在接受技能的背景
+ */
+const playerReceivingSkillEffectsBackground = ref(`url('')`);
+/**
+ *  角色正在接受技能的背景位置
+ */
+const playerReceivingSkillEffectsBackgroundPosition = ref([-8, 0]);
+/**
+ * 是否显示角色正在接受技能的背景
+ */
+const showPlayerReceivingSkillEffectsBackground = ref(false);
 
 /**
  * 角色背景图片数组
  * 
  * 其中角色应该处于最下方
  */
-const urlArray = [shipBackground, playerDebuffBackground, playerBackground];
+const urlArray = [playerReceivingSkillEffectsBackground, shipBackground, playerDebuffBackground, playerBackground];
 /**
  * 角色背景位置数组
  */
-const positionArray = [shipBackgroundPosition, playerDebuffBackgroundPosition, playerBackgroundPosition];
+const positionArray = [playerReceivingSkillEffectsBackgroundPosition, shipBackgroundPosition, playerDebuffBackgroundPosition, playerBackgroundPosition];
 
 const updatePosition = () => {
 	return positionArray.filter(cur => {
+		if (cur == playerReceivingSkillEffectsBackgroundPosition && !showPlayerReceivingSkillEffectsBackground.value) return false;
 		if (cur == shipBackgroundPosition && !showShipBackground.value) return false;
-		if (cur == playerDebuffBackgroundPosition && !showplayerDebuffBackground.value) return false;
+		if (cur == playerDebuffBackgroundPosition && !showPlayerDebuffBackground.value) return false;
 		return true;
 	}).reduce((pre, cur, i, arr) => {
-		return pre + cur.value.map(v => v + 'px').join(' ') + (i < arr.length - 1 ? ',' : '');
+		// @ts-ignore
+		return pre + cur.value.map(v => isNaN(v) ? v : (v + 'px')).join(' ') + (i < arr.length - 1 ? ',' : '');
 	}, '');
 };
 /**
@@ -133,8 +173,9 @@ const position = ref(updatePosition());
 
 const updateUrl = () => {
 	return urlArray.filter(cur => {
+		if (cur == playerReceivingSkillEffectsBackground && !showPlayerReceivingSkillEffectsBackground.value) return false;
 		if (cur == shipBackground && !showShipBackground.value) return false;
-		if (cur == playerDebuffBackground && !showplayerDebuffBackground.value) return false;
+		if (cur == playerDebuffBackground && !showPlayerDebuffBackground.value) return false;
 		return true;
 	}).reduce((pre, cur, i) => {
 		return pre + (i > 0 ? ',' : '') + cur.value;
@@ -152,31 +193,30 @@ let timer: number;
  * 创建动画
  */
 const createAnimation = function (fun: () => void | false, time = 500) {
-	// const callback = () => {
-	// 	clearTimeout(timer!);
-	// 	if (fun() !== false) {
-	// 		timer = setTimeout(callback, time);
-	// 	}
-	// };
-	// timer = setTimeout(callback, time);
 	const callback = () => {
-		if (fun() === false) {
-			clearInterval(timer);
+		clearTimeout(timer!);
+		if (fun() !== false) {
+			timer = setTimeout(callback, time);
 		}
 	};
-	timer = setInterval(callback, time);
-	console.log('为', fun, '绑定的timer是', timer);
+	timer = setTimeout(callback, time);
 };
 
 /**
  * 修改角色动画
  */
-const changeAnimation = function (this: Player, actionType: 'attack' | 'walk', statusType: attackType | walkType) {
+const changeAnimation = function (this: Player, actionType: 'attack' | 'walk' | 'skillEffect', statusType: attackType | walkType | Skill) {
 	return new Promise<void>(resolve => {
 		clearTimeout(timer!);
 		// 更新图片(异步)
-		if (animationData.actionType != actionType) animationData.actionType = actionType;
-		if (animationData.statusType != statusType) animationData.statusType = statusType;
+		if (animationData.actionType != actionType && actionType != 'skillEffect') animationData.actionType = actionType;
+		if (animationData.statusType != statusType && actionType != 'skillEffect') animationData.statusType = statusType;
+		if (actionType == 'skillEffect') {
+			// @ts-ignore
+			const skill: Skill = statusType;
+			showPlayerReceivingSkillEffectsBackground.value = true;
+			playerReceivingSkillEffectsBackground.value = `url('src/assets/strategyAnimate/${skill.AnimatePathId}.png')`;
+		}
 		nextTick(() => {
 			/** 初始动作位置 */
 			let basePosition: number;
@@ -281,6 +321,7 @@ const changeAnimation = function (this: Player, actionType: 'attack' | 'walk', s
 						// 做完一套动作后resolve
 						if (count >= maxCount) {
 							// 只有濒死情况或行走的情况循环动作
+							// @ts-ignore
 							if (['dying', 'top', 'right', 'bottom', 'left'].includes(statusType)) {
 								count = 0;
 								resolve();
@@ -294,12 +335,37 @@ const changeAnimation = function (this: Player, actionType: 'attack' | 'walk', s
 					});
 				} else {
 					// 非停止状态下，如果没有其他的动作可以切换，则切换到行走状态
+					// @ts-ignore
 					if (!statusType.endsWith('Stop')) {
 						setTimeout(resolve, 500);
 					} else {
 						resolve();
 					}
 				}
+			}
+			else if (actionType == 'skillEffect') {
+				// @ts-ignore
+				const skill: Skill = statusType;
+				let y = 64;
+				let maxCount = 11;
+				createAnimation(() => {
+					count++;
+					// 做完一套动作后resolve
+					if (count >= maxCount) {
+						clearTimeout(timer!);
+						// 技能动画后面播放增益技能效果
+						if (skill.AnimatePathId > 12 && skill.AnimatePathId < 23) {
+							// 暂时不处理
+							showPlayerReceivingSkillEffectsBackground.value = false;
+							resolve();
+						} else {
+							showPlayerReceivingSkillEffectsBackground.value = false;
+							resolve();
+						}
+						return false;
+					}
+					playerReceivingSkillEffectsBackgroundPosition.value[1] = -(count * y + 10);
+				}, 80);
 			}
 		});
 	});
@@ -321,8 +387,8 @@ const animationData = reactive({
 /**
  * Position改变重构background-image和background-position
  */
-watch(() => [playerBackgroundPosition.value, shipBackgroundPosition.value, playerDebuffBackgroundPosition.value,
-showShipBackground.value, showplayerDebuffBackground.value], () => {
+watch(() => [playerBackgroundPosition.value, shipBackgroundPosition.value, playerDebuffBackgroundPosition.value, playerReceivingSkillEffectsBackgroundPosition.value,
+showShipBackground.value, showPlayerDebuffBackground.value, showPlayerReceivingSkillEffectsBackground.value], () => {
 	// 更新background-position
 	position.value = updatePosition();
 	// 更新图片背景 background-image
@@ -343,7 +409,6 @@ watch(animationData, () => {
 	// clearTimeout(timer!);
 	// 重新设置动画
 	// newPlayer.changeAnimation(animationData.actionType, animationData.statusType);
-	console.log('更新animationData');
 }, { deep: true });
 
 const player: Ref<HTMLDivElement | null> = ref(null);

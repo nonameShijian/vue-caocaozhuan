@@ -1,5 +1,6 @@
 import { Ref } from "vue";
 import { attackType, walkType } from "../components/GamePlayer.vue";
+import { Skill } from "./skill";
 
 export class Player {
 	/** 对应的node元素 */
@@ -30,7 +31,7 @@ export class Player {
 	/** 角色朝向 */
 	toward: attackType;
 	/** 修改角色动画 */
-	changeAnimation: (actionType: 'attack' | 'walk', statusType: attackType | walkType) => Promise<void>;
+	changeAnimation: (actionType: 'attack' | 'walk' | 'skillEffect', statusType: attackType | walkType | Skill) => Promise<void>;
 	/** 对其他角色攻击 */
 	async attackTo(target: Player) {
 		// 判断地方角色位置的代码暂时省略
@@ -55,11 +56,32 @@ export class Player {
 		}
 	}
 	/** 使用技能 */
-	async useSkill(skillName: string, targets: Player[]) {
-		
+	async useSkill(skill: Skill | string, targets: Player[]):Promise<void> {
+		if (typeof skill == 'string') {
+			return this.useSkill(new Skill(skill), targets);
+		}
+		// 只对自己使用，应该是面朝下的
+		// 其他情况以后判断
+		if (targets.length == 1 && targets[0] == this) {
+			this.toward = 'bottom';
+		} else {
+			this.toward = 'top';
+		}
+		await this.changeAnimation('walk', this.toward);
+		// alert(`xx发动了${skill.strategyName}`);
+		await Promise.allSettled(targets.map(async target => {
+			// 根据技能的类型，目标的动画分为
+			// gain, damage, xxBlock
+			await target.changeAnimation('walk', 'gain');
+			// 技能动画
+			await target.changeAnimation('skillEffect', skill);
+			// 还原
+			await target.changeAnimation('walk', target.toward);
+		}));
+
 	}
 
-	constructor(player: Ref<HTMLDivElement | null>, changeAnimation: (actionType: 'attack' | 'walk', statusType: attackType | walkType) => Promise<void>) {
+	constructor(player: Ref<HTMLDivElement | null>, changeAnimation: (actionType: 'attack' | 'walk' | 'skillEffect', statusType: attackType | walkType | Skill) => Promise<void>) {
 		this.hp = this.maxHp = this.mp = this.level = this.attack = this.defence = 10;
 		this.node = player.value!;
 		this.changeAnimation = changeAnimation;

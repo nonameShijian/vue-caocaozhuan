@@ -39,7 +39,7 @@ onMounted(() => {
 	<GamePlayer ref="caocao" :id="id" :playerType="playerType" :actionType="actionType" :index="index"
 							:statusType="statusType" />
 	<GamePlayer ref="yuanshao" :id="1" playerType="arm" :actionType="actionType" :index="index"
-							statusType="damage" />
+							statusType="right" />
 </template>
 
 <style scoped>
